@@ -1,29 +1,44 @@
-
-
-
-
-header{
+header {
+    display: flex;
     margin-top: 1em;
     margin-left: 4em;
+    gap: 30%;
     text-align: left;
 }
 
-header h1{
+header h1 {
     font-size: 2em;
     font-weight: 900;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
-header p{
+
+header p {
     font-size: 1em;
     color: rgb(145, 145, 145);
 }
+
+header .left {
+    margin: 0;
+    padding: 0;
+    align-items: left;
+    color: rgb(255, 255, 255);
+}
+header .right{
+    align-items: right;
+    display: flex;
+    gap: 1em;
+}
+
 #container3D {
     width: 1000vw;
     height: 50vh;
-    position: relative; /* or absolute/fixed depending on layout */
+    position: relative;
+    /* or absolute/fixed depending on layout */
     top: 0;
-    left: 50%; /* Added % unit */
-    transform: translateX(-50%); /* Center it if needed */
+    left: 50%;
+    /* Added % unit */
+    transform: translateX(-50%);
+    /* Center it if needed */
 }
 
 #container3D canvas {
@@ -31,31 +46,31 @@ header p{
     height: 100% !important;
     display: block;
 }
-body
-{
-    color:white;
+
+body {
+    color: white;
     text-align: center;
-    margin:0;
+    margin: 0;
     font-family: "Inclusive Sans", sans-serif;
     background-color: rgb(0, 0, 0);
 }
-body .banner
-{
+
+body .banner {
     background-color: rgb(255, 255, 255);
-    
+
     text-align: left;
 }
-body .banner .title
-{
+
+body .banner .title {
     margin-top: 1em;
     margin-left: 1em;
     font-size: 2em;
     font-weight: 900;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
-body .banner .subtext
-{
-     margin-top: 1em;
+
+body .banner .subtext {
+    margin-top: 1em;
     margin-left: 1em;
     font-size: 1em;
     color: rgb(145, 145, 145);
