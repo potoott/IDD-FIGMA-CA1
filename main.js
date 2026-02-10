@@ -19,7 +19,7 @@ loader.load(
     function (gltf) {
         object = gltf.scene;
         scene.add(object);
-        const scale = 30;
+        const scale = 100;
         object.scale.set(scale, scale, scale);
         
         // Add object controls to GUI after loading
@@ -28,7 +28,7 @@ loader.load(
             objectFolder.add(object.position, 'x', -10, 10).name('Position X');
             objectFolder.add(object.position, 'y', -10, 10).name('Position Y');
             objectFolder.add(object.position, 'z', -10, 10).name('Position Z');
-            objectFolder.add(object.scale, 'x', 0.1, 100).name('Scale').onChange(v => {
+            objectFolder.add(object.scale, 'x', 0.1, 1000).name('Scale').onChange(v => {
                 object.scale.set(v, v, v);
             });
         }
@@ -98,11 +98,29 @@ function animate() {
     controls.update();
 }
 
-window.addEventListener("resize", function () {
-    camera.aspect = window.innerWidth / window.innerHeight;
-    camera.updateProjectionMatrix(); // Fixed: lowercase 'u'
-    renderer.setSize(window.innerWidth, window.innerHeight);
-});
+// Replace your existing resize listener with this:
+function updateRendererSize() {
+    const container = document.getElementById("container3D");
+    const width = container.clientWidth;
+    const height = container.clientHeight;
+    
+    // Update camera aspect ratio to match container
+    camera.aspect = width / height;
+    camera.updateProjectionMatrix();
+    
+    // Update renderer size to match container
+    renderer.setSize(width, height);
+}
+
+// Call on load
+updateRendererSize();
+
+// Update on window resize
+window.addEventListener("resize", updateRendererSize);
+
+// Optional: Use ResizeObserver for container size changes
+const resizeObserver = new ResizeObserver(updateRendererSize);
+resizeObserver.observe(document.getElementById("container3D"));
 
 animate();
 
