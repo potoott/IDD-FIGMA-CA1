@@ -1,9 +1,8 @@
 header {
     display: flex;
     margin-top: 1em;
-    margin-left: 4em;
-    gap: 30%;
-    text-align: left;
+    margin-left: 3em;
+    justify-content: space-between;
 }
 
 header h1 {
@@ -13,18 +12,18 @@ header h1 {
 }
 
 header p {
-    font-size: 1em;
-    color: rgb(145, 145, 145);
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
 }
 
 header .left {
     margin: 0;
     padding: 0;
-    align-items: left;
+    justify-content: flex-start;
     color: rgb(255, 255, 255);
 }
 header .right{
-    align-items: right;
+    justify-content: end;
     display: flex;
     gap: 1em;
 }
