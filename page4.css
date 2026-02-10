@@ -203,7 +203,6 @@ right: 45.71%;
 top: 0.63%;
 bottom: 97.19%;
 
-border: 8px solid #898989;
 transform: rotate(-5.66deg);
 
 }
@@ -239,9 +238,9 @@ bottom: 93.02%;
 
 font-family: 'Inclusive Sans';
 font-style: italic;
-font-weight: 400;
-font-size: 128px;
-line-height: 154px;
+font-weight: 2em;
+font-size: 2em;
+line-height: 2em;
 
 color: #000000;
 
