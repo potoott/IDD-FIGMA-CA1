@@ -1,9 +1,3 @@
-body{
-    margin:0;
-    font-family: "Montserrat", sans-serif;
-    background-color: black;
-}
-
 .IDD-FIGMA-PAGE-4-info-page {
     /* IDD FIGMA PAGE 4(info page) */
 
@@ -79,7 +73,7 @@ bottom: 96.67%;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .heart .click-me{
-    /* click me */
+   /* click me */
 
 position: absolute;
 left: 87.74%;
@@ -94,6 +88,8 @@ font-size: 48px;
 line-height: 58px;
 
 color: #000000;
+
+
 
 
 }
@@ -199,7 +195,7 @@ bottom: 95.49%;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .ear .Ear{
-    /* Ear */
+/* Ear */
 
 position: absolute;
 left: 49.71%;
