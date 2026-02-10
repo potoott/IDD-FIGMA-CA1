@@ -10,6 +10,7 @@ camera.position.set(5, 5, 5); // Set initial camera position
 
 let object;
 let controls;
+let mixer;
 let objToRender = 'assets';
 
 const loader = new GLTFLoader();
@@ -21,6 +22,10 @@ loader.load(
         scene.add(object);
         const scale = 100;
         object.scale.set(scale, scale, scale);
+
+        mixer = THREE.mixer(object);
+        
+        console.log(gltf.animations);
         
         // Add object controls to GUI after loading
         if (gui && object) {
