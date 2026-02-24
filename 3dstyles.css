@@ -1,35 +1,188 @@
-header {
-    display: flex;
-    margin-top: 1em;
-    margin-left: 3em;
-    justify-content: space-between;
-    background-color: rgba(240, 248, 255, 0);
+html {
+    zoom: calc(100vw / 1914.67px);
 }
 
-header h1 {
-    font-size: 2em;
-    font-weight: 900;
-    color: rgb(0, 0, 0);
+.IDD-FIGMA-PAGE-1-home-page  {
+    /* IDD FIGMA PAGE 1 home page   */
+
+position: relative;
+width: 1920px;
+height: 1858.67px;
+
+background: #F5F5F7;
+
 }
 
-header p {
-    font-size: 1.5em;
-    color: rgb(255, 255, 255);
+.IDD-FIGMA-PAGE-1-home-page .Frame-32{
+    /* Frame 32 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6.67px;
+
+position: absolute;
+width: 1920px;
+height: 1838px;
+left: 0px;
+top: 0px;
+
+
 }
 
-header .left {
-    margin: 0;
-    padding: 0;
-    justify-content: flex-start;
-    color: rgb(255, 255, 255);
-}
-header .right{
-    justify-content: end;
-    display: flex;
-    gap: 1em;
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header{
+    /* actual header */
+
+width: 1920px;
+height: 120px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
 }
 
-#container3D {
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places{
+    /* top text that goes to other places */
+
+position: absolute;
+width: 1825.33px;
+height: 82.67px;
+left: 56px;
+top: 37.33px;
+
+
+}
+
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore{
+    /* about-contact-applestore */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 48px;
+
+position: absolute;
+width: 502.67px;
+height: 74.67px;
+left: 1378.67px;
+top: 37.33px;
+
+
+}
+
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .About{
+    /* About */
+
+width: 128px;
+height: 74.67px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 42.6667px;
+line-height: 51px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .Contact{
+    /* Contact */
+
+width: 161.33px;
+height: 74.67px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 42.6667px;
+line-height: 51px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .Apple-Store{
+    /* Apple Store */
+
+width: 117.33px;
+height: 74.67px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 42.6667px;
+line-height: 51px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .Home{
+    /* Home */
+
+position: absolute;
+width: 121.33px;
+height: 74.67px;
+left: 56px;
+top: 45.33px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 42.6667px;
+line-height: 51px;
+
+color: #000000;
+
+
+}
+
+
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .The-3d-model{
+    /* 3d model */
+
+width: 1920px;
+height: 881.33px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+
+
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .The-3d-model .container3D {
     width: 1000vw;
     height: 50vh;
     position: relative;
@@ -41,122 +194,73 @@ header .right{
     /* Center it if needed */
 }
 
-#container3D canvas {
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .The-3d-model .container3D canvas {
     width: 100% !important;
     height: 100% !important;
     display: block;
 }
 
-body {
-    color: white;
-    text-align: center;
-    margin: 0;
-    font-family: "Inclusive Sans", sans-serif;
-    background-color: rgb(0, 0, 0);
+.IDD_FIGMA-PAGE-1-home-page .Frame-32 .header{
+  /* header */
+
+width: 1915px;
+height: 308.67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
 }
 
-body .banner {
-    background-color: rgb(255, 255, 255);
-
-    text-align: left;
-}
-
-body .banner .title {
-    margin-top: 1em;
-    margin-left: 1em;
-    font-size: 2em;
-    font-weight: 900;
-    color: rgb(0, 0, 0);
-}
-
-body .banner .subtext {
-    margin-top: 1em;
-    margin-left: 1em;
-    font-size: 1em;
-    color: rgb(145, 145, 145);
-}
-.IDD-FIGMA-PAGE-4-info-page {
-    /* IDD FIGMA PAGE 4(info page) */
-
-position: relative;
-width: 1914.67px;
-height: 5118.67px;
-
-background: #FFFFFF;
-
-}
-
-.IDD-FIGMA-PAGE-4-info-page .page-4{
-    /* page 4 */
+.IDD_FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel{
+   /* top panel */
 
 position: absolute;
-width: 1925px;
-height: 5119px;
-left: -5px;
-top: 0px;
+left: 0%;
+right: 0.26%;
+top: 55.8%;
+bottom: 28%;
+
+
 
 
 }
 
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header{
-    /* header */
+.IDD_FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .heart{
+   /* heart */
 
 position: absolute;
-width: 1914.67px;
-height: 357.33px;
-left: 5px;
-top: 0px;
+left: 89.5%;
+right: 0.26%;
+top: 55.8%;
+bottom: 32.44%;
+
+
 
 
 }
 
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel{
-    /* top panel */
+.IDD_FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .heart .Heart{
+    /* Heart */
 
 position: absolute;
-left: 2.06%;
-right: 2.08%;
-top: 0%;
-bottom: 93.02%;
-
+top: 13px;
+left: 50%;
+transform: translateX(-50%);
+width: 98px;
+height: 98px;
 
 }
 
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .heart{
-    /* heart */
+.IDD_FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .heart .click-me{
+  /* click me */
 
 position: absolute;
-left: 87.74%;
-right: 2.08%;
-top: 0.29%;
-bottom: 95.49%;
-
-
-}
-
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .heart .Heart{
-    /* Heart
-
-Keywords: like, love, emotion
-*/
-
-position: absolute;
-left: 88.78%;
-right: 3.12%;
-top: 0.29%;
-bottom: 96.67%;
-
-
-}
-
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .heart .click-me{
-   /* click me */
-
-position: absolute;
-left: 87.74%;
-right: 2.08%;
-top: 3.23%;
-bottom: 95.49%;
+left: 89.5%;
+right: 0.26%;
+top: 64%;
+bottom: 32.44%;
 
 font-family: 'Inclusive Sans';
 font-style: normal;
@@ -168,41 +272,42 @@ color: #000000;
 
 
 
-
 }
 
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .sound{
-    /* sound */
+.IDD_FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .sound{
+   /* sound */
 
 position: absolute;
-left: 74.23%;
-right: 15.58%;
-top: 0.94%;
-bottom: 95.49%;
+left: 75.93%;
+right: 13.84%;
+top: 57.62%;
+bottom: 32.44%;
+
 
 
 }
 
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .sound .Speaker{
+.IDD_FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .sound .Speaker{
     /* Speaker */
 
 position: absolute;
-left: 76.8%;
-right: 18.25%;
-top: 0.94%;
-bottom: 97.46%;
+left: 78.5%;
+right: 16.52%;
+top: 57.62%;
+bottom: 37.91%;
+
 
 
 }
 
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .sound .click-me{
-    /* click me */
+.IDD_FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .sound .click-me{
+   /* click me */
 
 position: absolute;
-left: 74.23%;
-right: 15.58%;
-top: 3.23%;
-bottom: 95.49%;
+left: 75.93%;
+right: 13.84%;
+top: 64%;
+bottom: 32.44%;
 
 font-family: 'Inclusive Sans';
 font-style: normal;
@@ -213,9 +318,10 @@ line-height: 58px;
 color: #000000;
 
 
+
 }
 
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .silence{
+.IDD_FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .silence{
     /* silence */
 
 position: absolute;
@@ -227,26 +333,28 @@ bottom: 95.49%;
 
 }
 
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .silence .Silence{
-    /* Silence */
+.IDD_FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .silence .Silence{
+  /* Silence */
 
 position: absolute;
-left: 62.11%;
-right: 30.56%;
-top: 0.29%;
-bottom: 96.67%;
+left: 63.74%;
+right: 28.89%;
+top: 55.8%;
+bottom: 35.73%;
+
+
 
 
 }
 
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .silence .click-me{
+.IDD_FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .silence .click-me{
 /* click me */
 
 position: absolute;
-left: 60.73%;
-right: 29.09%;
-top: 3.23%;
-bottom: 95.49%;
+left: 62.35%;
+right: 27.42%;
+top: 64%;
+bottom: 32.44%;
 
 font-family: 'Inclusive Sans';
 font-style: normal;
@@ -257,41 +365,46 @@ line-height: 58px;
 color: #000000;
 
 
+
 }
 
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .ear{
-    /* ear */
+.IDD_FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .ear{
+  /* ear */
 
 position: absolute;
-left: 47.22%;
-right: 42.6%;
-top: 0.63%;
-bottom: 95.49%;
+height: 198.67px;
+left: 48.77%;
+right: 40.99%;
+top: calc(50% - 198.67px/2 + 223.33px);
+
+
 
 
 }
 
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .ear .Ear{
-/* Ear */
+.IDD_FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .ear .Ear{
+   /* Ear */
 
 position: absolute;
-left: 49.71%;
-right: 45.71%;
-top: 0.63%;
-bottom: 97.19%;
+height: 112px;
+left: 51.28%;
+right: 44.13%;
+top: calc(50% - 112px/2 + 180px);
 
-transform: rotate(-5.66deg);
+border: 8px solid #898989;
+transform: matrix(1, -0.1, 0.1, 1, 0, 0);
+
 
 }
 
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .ear .click-me{
+.IDD_FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .ear .click-me{
     /* click me */
 
 position: absolute;
-left: 47.22%;
-right: 42.6%;
-top: 3.23%;
-bottom: 95.49%;
+left: 48.77%;
+right: 40.99%;
+top: 64%;
+bottom: 32.44%;
 
 font-family: 'Inclusive Sans';
 font-style: normal;
@@ -302,4 +415,78 @@ line-height: 58px;
 color: #000000;
 
 
+
 }
+
+.IDD_FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .text{
+   /* text */
+
+position: absolute;
+width: 934px;
+height: 295px;
+left: 0px;
+top: 1028.33px;
+
+
+
+}
+
+.IDD_FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .text .AirPods-Pro-3 {
+  /* AirPods Pro 3 */
+
+position: absolute;
+width: 934px;
+left: 0px;
+top: 55.95%;
+bottom: 35.67%;
+
+font-family: 'Inclusive Sans';
+font-style: italic;
+font-weight: 400;
+font-size: 128px;
+line-height: 154px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+}
+
+.IDD_FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .text .The-worlds-best-Active-Noise-Cancellation {
+   /* The world’s best Active Noise Cancellation. */
+
+position: absolute;
+width: 934px;
+left: 0px;
+top: 65.03%;
+bottom: 28%;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 53.3333px;
+line-height: 64px;
+
+color: #000000;
+
+
+
+}
+
+
+.IDD_FIGMA-PAGE-1-home-page .Frame-32 .header .background{
+/* background */
+
+position: absolute;
+width: 1914.67px;
+height: 308.67px;
+left: calc(50% - 1914.67px/2 - 2.67px);
+top: calc(50% - 308.67px/2 + 250px);
+
+background: #FFFFFF;
+
+}
+
+
+

@@ -268,6 +268,18 @@ color: #000000;
 
 }
 
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .background{
+    /* background */
+
+position: absolute;
+width: 1914.67px;
+height: 308.67px;
+left: calc(50% - 1914.67px/2 - 0.17px);
+top: calc(50% - 308.67px/2 - 2401.5px);
+
+background: #FFFFFF;
+
+}
 
 
 
