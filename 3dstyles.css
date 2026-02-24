@@ -75,3 +75,231 @@ body .banner .subtext {
     font-size: 1em;
     color: rgb(145, 145, 145);
 }
+.IDD-FIGMA-PAGE-4-info-page {
+    /* IDD FIGMA PAGE 4(info page) */
+
+position: relative;
+width: 1914.67px;
+height: 5118.67px;
+
+background: #FFFFFF;
+
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4{
+    /* page 4 */
+
+position: absolute;
+width: 1925px;
+height: 5119px;
+left: -5px;
+top: 0px;
+
+
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header{
+    /* header */
+
+position: absolute;
+width: 1914.67px;
+height: 357.33px;
+left: 5px;
+top: 0px;
+
+
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel{
+    /* top panel */
+
+position: absolute;
+left: 2.06%;
+right: 2.08%;
+top: 0%;
+bottom: 93.02%;
+
+
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .heart{
+    /* heart */
+
+position: absolute;
+left: 87.74%;
+right: 2.08%;
+top: 0.29%;
+bottom: 95.49%;
+
+
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .heart .Heart{
+    /* Heart
+
+Keywords: like, love, emotion
+*/
+
+position: absolute;
+left: 88.78%;
+right: 3.12%;
+top: 0.29%;
+bottom: 96.67%;
+
+
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .heart .click-me{
+   /* click me */
+
+position: absolute;
+left: 87.74%;
+right: 2.08%;
+top: 3.23%;
+bottom: 95.49%;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+
+color: #000000;
+
+
+
+
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .sound{
+    /* sound */
+
+position: absolute;
+left: 74.23%;
+right: 15.58%;
+top: 0.94%;
+bottom: 95.49%;
+
+
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .sound .Speaker{
+    /* Speaker */
+
+position: absolute;
+left: 76.8%;
+right: 18.25%;
+top: 0.94%;
+bottom: 97.46%;
+
+
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .sound .click-me{
+    /* click me */
+
+position: absolute;
+left: 74.23%;
+right: 15.58%;
+top: 3.23%;
+bottom: 95.49%;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+
+color: #000000;
+
+
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .silence{
+    /* silence */
+
+position: absolute;
+left: 60.73%;
+right: 29.09%;
+top: 0.29%;
+bottom: 95.49%;
+
+
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .silence .Silence{
+    /* Silence */
+
+position: absolute;
+left: 62.11%;
+right: 30.56%;
+top: 0.29%;
+bottom: 96.67%;
+
+
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .silence .click-me{
+/* click me */
+
+position: absolute;
+left: 60.73%;
+right: 29.09%;
+top: 3.23%;
+bottom: 95.49%;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+
+color: #000000;
+
+
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .ear{
+    /* ear */
+
+position: absolute;
+left: 47.22%;
+right: 42.6%;
+top: 0.63%;
+bottom: 95.49%;
+
+
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .ear .Ear{
+/* Ear */
+
+position: absolute;
+left: 49.71%;
+right: 45.71%;
+top: 0.63%;
+bottom: 97.19%;
+
+transform: rotate(-5.66deg);
+
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .ear .click-me{
+    /* click me */
+
+position: absolute;
+left: 47.22%;
+right: 42.6%;
+top: 3.23%;
+bottom: 95.49%;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+
+color: #000000;
+
+
+}
