@@ -1,8 +1,11 @@
+html {
+    zoom: calc(100vw / 1914.67px);
+}
 .IDD-FIGMA-PAGE-4-info-page {
     /* IDD FIGMA PAGE 4(info page) */
 
 position: relative;
-width: 1914.67px;
+width: 1920px;
 height: 5118.67px;
 
 background: #FFFFFF;
@@ -13,7 +16,7 @@ background: #FFFFFF;
     /* page 4 */
 
 position: absolute;
-width: 1925px;
+width: 1920px;
 height: 5119px;
 left: -5px;
 top: 0px;
@@ -25,8 +28,8 @@ top: 0px;
     /* header */
 
 position: absolute;
-width: 1914.67px;
-height: 357.33px;
+width: 1920px;
+height: 268px;
 left: 5px;
 top: 0px;
 
@@ -58,17 +61,14 @@ bottom: 95.49%;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .heart .Heart{
-    /* Heart
-
-Keywords: like, love, emotion
-*/
+    /* Heart */
 
 position: absolute;
-left: 88.78%;
-right: 3.12%;
-top: 0.29%;
-bottom: 96.67%;
-
+top: 13px;
+left: 50%;
+transform: translateX(-50%);
+width: 98px;
+height: 98px;
 
 }
 
@@ -76,21 +76,18 @@ bottom: 96.67%;
    /* click me */
 
 position: absolute;
-left: 87.74%;
-right: 2.08%;
-top: 3.23%;
-bottom: 95.49%;
+top: 119px;
+left: 50%;
+transform: translateX(-50%);
+white-space: nowrap;
 
 font-family: 'Inclusive Sans';
 font-style: normal;
 font-weight: 400;
-font-size: 48px;
-line-height: 58px;
+font-size: 36px;
+line-height: 44px;
 
 color: #000000;
-
-
-
 
 }
 
@@ -110,11 +107,11 @@ bottom: 95.49%;
     /* Speaker */
 
 position: absolute;
-left: 76.8%;
-right: 18.25%;
-top: 0.94%;
-bottom: 97.46%;
-
+top: 13px;
+left: 50%;
+transform: translateX(-50%);
+width: 98px;
+height: 98px;
 
 }
 
@@ -122,19 +119,18 @@ bottom: 97.46%;
     /* click me */
 
 position: absolute;
-left: 74.23%;
-right: 15.58%;
-top: 3.23%;
-bottom: 95.49%;
+top: 119px;
+left: 50%;
+transform: translateX(-50%);
+white-space: nowrap;
 
 font-family: 'Inclusive Sans';
 font-style: normal;
 font-weight: 400;
-font-size: 48px;
-line-height: 58px;
+font-size: 36px;
+line-height: 44px;
 
 color: #000000;
-
 
 }
 
@@ -154,11 +150,11 @@ bottom: 95.49%;
     /* Silence */
 
 position: absolute;
-left: 62.11%;
-right: 30.56%;
-top: 0.29%;
-bottom: 96.67%;
-
+top: 13px;
+left: 50%;
+transform: translateX(-50%);
+width: 98px;
+height: 98px;
 
 }
 
@@ -166,19 +162,18 @@ bottom: 96.67%;
 /* click me */
 
 position: absolute;
-left: 60.73%;
-right: 29.09%;
-top: 3.23%;
-bottom: 95.49%;
+top: 119px;
+left: 50%;
+transform: translateX(-50%);
+white-space: nowrap;
 
 font-family: 'Inclusive Sans';
 font-style: normal;
 font-weight: 400;
-font-size: 48px;
-line-height: 58px;
+font-size: 36px;
+line-height: 44px;
 
 color: #000000;
-
 
 }
 
@@ -195,15 +190,14 @@ bottom: 95.49%;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .ear .Ear{
-/* Ear */
+    /* Ear */
 
 position: absolute;
-left: 49.71%;
-right: 45.71%;
-top: 0.63%;
-bottom: 97.19%;
-
-transform: rotate(-5.66deg);
+top: 13px;
+left: 50%;
+transform: translateX(-50%) rotate(-5.66deg);
+width: 98px;
+height: 98px;
 
 }
 
@@ -211,62 +205,68 @@ transform: rotate(-5.66deg);
     /* click me */
 
 position: absolute;
-left: 47.22%;
-right: 42.6%;
-top: 3.23%;
-bottom: 95.49%;
+top: 119px;
+left: 50%;
+transform: translateX(-50%);
+white-space: nowrap;
 
 font-family: 'Inclusive Sans';
 font-style: normal;
 font-weight: 400;
-font-size: 48px;
-line-height: 58px;
+font-size: 36px;
+line-height: 44px;
 
 color: #000000;
+
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .text{
+    /* text */
+
+position: absolute;
+width: 525px;
+height: 221px;
+left: 5px;
+top: 13px;
 
 
 }
 
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .AirPods-Pro-3-The-worlds-best-Active-Noise-Cancellation{
-/* AirPods Pro 3 The world’s best Active Noise Cancellation. */
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .text .AirPods-Pro-3 {
+    /* AirPods Pro 3 */
 
 position: absolute;
-left: 2.06%;
-right: 49.04%;
-top: 0%;
-bottom: 93.02%;
+width: 700px;
+left: 20px;
+top: 0px;
 
 font-family: 'Inclusive Sans';
 font-style: italic;
-font-weight: 2em;
-font-size: 2em;
-line-height: 2em;
+font-weight: 400;
+font-size: 96px;
+line-height: 116px;
 
 color: #000000;
 
-
 }
 
-
-
-
-
-
-
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .background{
-    /* background */
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .text .The-worlds-best-Active-Noise-Cancellation {
+    /* The world's best Active Noise Cancellation. */
 
 position: absolute;
-width: 1914.67px;
-height: 316px;
-left: calc(50% - 1914.67px/2 - 0.17px);
-top: calc(50% - 316px/2 - 2401.5px);
+width: 800px;
+left: 20px;
+top: 116px;
 
-background: #FFFFFF;
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
 
 }
-
-
 
 
 
