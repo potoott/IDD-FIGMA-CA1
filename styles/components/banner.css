@@ -1,0 +1,33 @@
+.banner-component {
+    background-color: rgb(255, 255, 255);
+    padding: 4em 3em;
+    text-align: left;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-component .title {
+    font-size: 4em;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0.3em;
+    line-height: 1.1;
+}
+
+.banner-component .subtext {
+    font-size: 1.5em;
+    color: rgb(145, 145, 145);
+    margin-top: 0.5em;
+}
+
+@media (max-width: 768px) {
+    .banner-component .title {
+        font-size: 2.5em;
+    }
+    
+    .banner-component .subtext {
+        font-size: 1.2em;
+    }
+}

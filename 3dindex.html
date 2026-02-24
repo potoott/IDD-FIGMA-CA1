@@ -1,68 +1,43 @@
-<DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirPods Pro 3</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <!-- Header component will be injected here -->
+    <div id="header-root"></div>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content=" width=device-width, initial-scale = 1.0">
-        <title> Multiple section webpage </title>
-        <link rel="stylesheet" href="3dstyles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&display=swap"
-            rel="stylesheet">
-    </head>
+    <main>
+        <!-- 3D Scene component will be injected here -->
+        <div id="scene3d-root"></div>
+        
+        <!-- Banner component will be injected here -->
+        <div id="banner-root"></div>
+    </main>
 
-    <body>
+    <!-- Scroll sections -->
+    <div class="content-section">
+        <h1>Section 1</h1>
+        <p>Scroll down...</p>
+    </div>
 
-        <script type="module" src="main.js"></script>
-        <header>
-            <div class="left">
+    <div class="content-section">
+        <div id="scene3d-root-2"></div>
+    </div>
 
-                <div class="Home">
-                    <p>Home</p>
-                </div>
-            </div>
-            <div class= "right">
-                <div class="About">
-                    <p>About</p>
-                </div>
-                <div class="Contact">
-                    <p>Contact</p>
-                </div>
-                <div class="Apple store">
-                    <p>Apple store</p>
-                </div>
-            </div>
-        </header>
-        <main>
+    <div class="content-section">
+        <h1>Section 3</h1>
+        <p>More content...</p>
+    </div>
 
-            <div id="container3D"></div>
-        </main>
-
-        <div class="banner">
-            <div class="title">
-                <h1>Airpods Pro 3</h1>
-            </div>
-
-            <div class="subtext">
-                <p>The world's best noise cancellation</p>
-            </div>
-        </div>
-
-        <div class="content-section">
-            <h1>Section 1</h1>
-            <p>Scroll down...</p>
-        </div>
-
-        <div class="content-section">
-            <div id="container3D"></div>
-        </div>
-
-        <div class="content-section">
-            <h1>Section 3</h1>
-            <p>More content...</p>
-        </div>
-    </body>
-
-    </html>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
