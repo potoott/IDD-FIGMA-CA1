@@ -1,0 +1,128 @@
+html {
+    zoom: calc(100vw / 1920px);
+}
+
+.IDD-FIGMA-PAGE-3-inspecting-anim {
+    position: relative;
+    width: 1920px;
+    min-height: 1365.33px;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+}
+
+/* ── Background: covers full page behind everything ── */
+.IDD-FIGMA-PAGE-3-inspecting-anim .background {
+    position: absolute;
+    inset: 0;
+    width: 1920px;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.IDD-FIGMA-PAGE-3-inspecting-anim .background .background-colour {
+    position: absolute;
+    inset: 0;
+    width: 1920px;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(180deg, #FFFFFF 0%, #2A2A2A 100%);
+}
+
+/* ── Actual header: flows first in the column ── */
+.IDD-FIGMA-PAGE-3-inspecting-anim .actual-header {
+    position: relative;
+    width: 1920px;
+    height: 120px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+}
+
+.IDD-FIGMA-PAGE-3-inspecting-anim .actual-header .top-text-that-goes-to-other-places {
+    position: absolute;
+    width: 1825.33px;
+    height: 82.67px;
+    left: 56px;
+    top: 37.33px;
+}
+
+.IDD-FIGMA-PAGE-3-inspecting-anim .actual-header .top-text-that-goes-to-other-places .about-contact-applestore {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 48px;
+    position: absolute;
+    width: 502.67px;
+    height: 74.67px;
+    left: 1200px;
+    top: 37.33px;
+}
+
+.IDD-FIGMA-PAGE-3-inspecting-anim .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .About {
+    width: 128px;
+    height: 74.67px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 51px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.IDD-FIGMA-PAGE-3-inspecting-anim .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .Contact {
+    width: 161.33px;
+    height: 74.67px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 51px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.IDD-FIGMA-PAGE-3-inspecting-anim .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .Apple-Store {
+    width: 220px;
+    height: 74.67px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 51px;
+    color: #000000;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.IDD-FIGMA-PAGE-3-inspecting-anim .actual-header .top-text-that-goes-to-other-places .Home {
+    position: absolute;
+    width: 121.33px;
+    height: 74.67px;
+    left: 56px;
+    top: 45.33px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 51px;
+    color: #000000;
+}
+
+/* ── AirPods SVG: centred in remaining space below header ──
+   position:absolute is appropriate here — it's a decorative/visual
+   element overlaid on the gradient background, not a flow element. ── */
+.IDD-FIGMA-PAGE-3-inspecting-anim .airpods-svg {
+    position: absolute;
+    width: 728px;
+    height: 1034.13px;
+    left: 596px;
+    top: 49.33px;
+}

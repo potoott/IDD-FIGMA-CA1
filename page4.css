@@ -10,13 +10,22 @@ html {
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 {
+    position: relative;
     width: 1920px;
     min-height: 5119px;
     display: flex;
     flex-direction: column;
 }
 
-/* ── Header: sticky, absolute is appropriate here ── */
+/* ── Big background: covers full page, behind everything ── */
+.IDD-FIGMA-PAGE-4-info-page .page-4 .big-background {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(180deg, #838383 0%, #1B1B1B 100%);
+}
+
+/* ── Header: sticky so it stays visible while scrolling ── */
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header {
     position: sticky;
     top: 0;
@@ -25,6 +34,7 @@ html {
     height: 268px;
     background: #FFFFFF;
     overflow: visible;
+    flex: none;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .background {
@@ -36,7 +46,7 @@ html {
     z-index: 0;
 }
 
-/* ── Top panel: matches your original Figma % positions ── */
+/* ── Top panel and all icon/text children: Figma % positions, untouched ── */
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel {
     position: absolute;
     left: 2.06%;
@@ -46,7 +56,6 @@ html {
     z-index: 1;
 }
 
-/* heart */
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .heart {
     position: absolute;
     left: 87.74%;
@@ -78,7 +87,6 @@ html {
     color: #000000;
 }
 
-/* sound */
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .sound {
     position: absolute;
     left: 74.23%;
@@ -110,7 +118,6 @@ html {
     color: #000000;
 }
 
-/* silence */
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .silence {
     position: absolute;
     left: 60.73%;
@@ -142,7 +149,6 @@ html {
     color: #000000;
 }
 
-/* ear */
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .ear {
     position: absolute;
     left: 47.22%;
@@ -174,7 +180,6 @@ html {
     color: #000000;
 }
 
-/* text */
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .text {
     position: absolute;
     width: 525px;
@@ -209,14 +214,56 @@ html {
     color: #000000;
 }
 
-/* ── Sections below header: normal block flow ── */
+/* ── All sections below header: normal block flow, stack automatically ── */
+
 .IDD-FIGMA-PAGE-4-info-page .page-4 .tip-image {
     width: 1914.67px;
     height: 600px;
     background: url(image.png) center / cover no-repeat;
+    flex: none;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .fit-and-feel {
     width: 1914.67px;
     height: 600px;
+    flex: none;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .noise-cancellation-image {
+    width: 1914.67px;
+    height: 600px;
+    background: url(image.png) center / cover no-repeat;
+    flex: none;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .noise-cancellation {
+    width: 1918.67px;
+    height: 600px;
+    flex: none;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .sound-quality-image {
+    width: 1914.67px;
+    height: 600px;
+    background: url(image.png) center / cover no-repeat;
+    flex: none;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .sound-quality {
+    width: 1914.67px;
+    height: 601.33px;
+    flex: none;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .heartbeat-sensor-image {
+    width: 1920px;
+    height: 600px;
+    background: url(image.png) center / cover no-repeat;
+    flex: none;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .heartbeat-sensor {
+    width: 1914.67px;
+    height: 600px;
+    flex: none;
 }

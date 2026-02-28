@@ -2,197 +2,128 @@ html {
     zoom: calc(100vw / 1920px);
 }
 
-.IDD-FIGMA-PAGE-1-home-page  {
-    /* IDD FIGMA PAGE 1 home page   */
-
-position: relative;
-width: 1920px;
-height: 1500px;
-z-index: 0;
-
-
+/* ── Page wrapper ── */
+.IDD-FIGMA-PAGE-1-home-page {
+    position: relative;
+    width: 1920px;
+    height: 1500px;
+    z-index: 0;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32{
-  
-    /* Frame 32 */
-
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 0px;
-
-position: absolute;
-width: 1920px;
-height: 1500px;
-left: 0px;
-top: 0px;
-
+/* ── Frame 32: flex column so children stack naturally ── */
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 0px;
+    width: 1920px;
+    min-height: 1500px;
 }
 
-
-
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header{
-    /* actual header */
-
-width: 1920px;
-height: 120px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-
+/* ── Actual header: block, fixed height, no absolute ── */
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header {
+    width: 1920px;
+    height: 120px;
+    position: relative;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places{
-    /* top text that goes to other places */
-
-position: absolute;
-width: 1825.33px;
-height: 82.67px;
-left: 56px;
-top: 37.33px;
-
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places {
+    position: absolute;
+    width: 1825.33px;
+    height: 82.67px;
+    left: 56px;
+    top: 37.33px;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore{
-    /* about-contact-applestore */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-gap: 48px;
-
-position: absolute;
-width: 502.67px;
-height: 74.67px;
-left: 1200px;
-top: 37.33px;
-
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 48px;
+    position: absolute;
+    width: 502.67px;
+    height: 74.67px;
+    left: 1200px;
+    top: 37.33px;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .About{
-    /* About */
-
-width: 128px;
-height: 74.67px;
-
-font-family: 'Inclusive Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 38px;
-line-height: 51px;
-
-color: #000000;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .About {
+    width: 128px;
+    height: 74.67px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 51px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .Contact{
-    /* Contact */
-
-width: 161.33px;
-height: 74.67px;
-
-font-family: 'Inclusive Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 38px;
-line-height: 51px;
-
-color: #000000;
-
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .Contact {
+    width: 161.33px;
+    height: 74.67px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 51px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .Apple-Store{
-    /* Apple Store */
-
-width: 220px;;
-height: 74.67px;
-
-font-family: 'Inclusive Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 38px;
-line-height: 51px;
-
-color: #000000;
-
-
-/* Inside auto layout */
-flex: none;
-order: 2;
-flex-grow: 0;
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .Apple-Store {
+    width: 220px;
+    height: 74.67px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 51px;
+    color: #000000;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .Home{
-    /* Home */
-
-position: absolute;
-width: 121.33px;
-height: 74.67px;
-left: 56px;
-top: 45.33px;
-
-font-family: 'Inclusive Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 38px;
-line-height: 51px;
-
-color: #000000;
-
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .Home {
+    position: absolute;
+    width: 121.33px;
+    height: 74.67px;
+    left: 56px;
+    top: 45.33px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 51px;
+    color: #000000;
 }
 
-
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .The-3d-model{
-    /* 3d model */
-
-width: 1920px;
-height: 900px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
-
+/* ── 3D model section: block, fixed height ── */
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .The-3d-model {
+    position: relative;
+    width: 1920px;
+    height: 900px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
 }
-
-
 
 .IDD-FIGMA-PAGE-1-home-page .Frame-32 .The-3d-model .container3D {
-    width: 1000vw;
-    height: 50vh;
+    width: 100%;
+    height: 100%;
     position: relative;
-    /* or absolute/fixed depending on layout */
-    top: 0;
-    left: 50%;
-    /* Added % unit */
-    transform: translateX(-50%);
-    /* Center it if needed */
 }
 
 .IDD-FIGMA-PAGE-1-home-page .Frame-32 .The-3d-model .container3D canvas {
@@ -201,325 +132,239 @@ flex-grow: 0;
     display: block;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .The-3d-model .The-3d-model-bg{
-    /* The 3d model bg */
-
-position: absolute;
-width: 1920px;
-height: 950px;
-left: 0px;
-top: 0px;
-z-index: -1;
-
-background: linear-gradient(180deg, #FFFFFF 0%, #2A2A2A 100%);
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .The-3d-model .The-3d-model-bg {
+    position: absolute;
+    width: 1920px;
+    height: 950px;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    background: linear-gradient(180deg, #FFFFFF 0%, #2A2A2A 100%);
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header{
-    /* header */
-
-position: absolute;
-width: 1920px;
-height: 268px;
-left: 0px;
-top: 1001.33px;
-
-
+/* ── Feature header (AirPods icons row): block, fixed height ── */
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header {
+    position: relative;
+    width: 1920px;
+    height: 268px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel{
-    /* top panel */
-
-position: absolute;
-left: 2.06%;
-right: 2.08%;
-top: 0%;
-bottom: 93.02%;
-
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .background {
+    position: absolute;
+    inset: 0;
+    width: 1920px;
+    height: 268px;
+    z-index: -1;
+    background: #FFFFFF;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .heart{
-    /* heart */
-
-position: absolute;
-left: 87.74%;
-right: 2.08%;
-top: 0.29%;
-bottom: 95.49%;
-
-
+/* top panel and all icon/text children — identical Figma % positions as original */
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel {
+    position: absolute;
+    left: 2.06%;
+    right: 2.08%;
+    top: 0%;
+    bottom: 93.02%;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .heart .Heart{
-    /* Heart */
-
-position: absolute;
-top: 13px;
-left: 50%;
-transform: translateX(-50%);
-width: 98px;
-height: 98px;
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .heart {
+    position: absolute;
+    left: 87.74%;
+    right: 2.08%;
+    top: 0.29%;
+    bottom: 95.49%;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .heart .click-me{
-   /* click me */
-
-position: absolute;
-top: 119px;
-left: 50%;
-transform: translateX(-50%);
-white-space: nowrap;
-
-font-family: 'Inclusive Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 44px;
-
-color: #000000;
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .heart .Heart {
+    position: absolute;
+    top: 13px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 98px;
+    height: 98px;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .sound{
-    /* sound */
-
-position: absolute;
-left: 74.23%;
-right: 15.58%;
-top: 0.94%;
-bottom: 95.49%;
-
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .heart .click-me {
+    position: absolute;
+    top: 119px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .sound .Speaker{
-    /* Speaker */
-
-position: absolute;
-top: 13px;
-left: 50%;
-transform: translateX(-50%);
-width: 98px;
-height: 98px;
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .sound {
+    position: absolute;
+    left: 74.23%;
+    right: 15.58%;
+    top: 0.94%;
+    bottom: 95.49%;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .sound .click-me{
-    /* click me */
-
-position: absolute;
-top: 119px;
-left: 50%;
-transform: translateX(-50%);
-white-space: nowrap;
-
-font-family: 'Inclusive Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 44px;
-
-color: #000000;
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .sound .Speaker {
+    position: absolute;
+    top: 13px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 98px;
+    height: 98px;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .silence{
-    /* silence */
-
-position: absolute;
-left: 60.73%;
-right: 29.09%;
-top: 0.29%;
-bottom: 95.49%;
-
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .sound .click-me {
+    position: absolute;
+    top: 119px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .silence .Silence{
-    /* Silence */
-
-position: absolute;
-top: 13px;
-left: 50%;
-transform: translateX(-50%);
-width: 98px;
-height: 98px;
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .silence {
+    position: absolute;
+    left: 60.73%;
+    right: 29.09%;
+    top: 0.29%;
+    bottom: 95.49%;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .silence .click-me{
-/* click me */
-
-position: absolute;
-top: 119px;
-left: 50%;
-transform: translateX(-50%);
-white-space: nowrap;
-
-font-family: 'Inclusive Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 44px;
-
-color: #000000;
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .silence .Silence {
+    position: absolute;
+    top: 13px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 98px;
+    height: 98px;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .ear{
-    /* ear */
-
-position: absolute;
-left: 47.22%;
-right: 42.6%;
-top: 0.63%;
-bottom: 95.49%;
-
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .silence .click-me {
+    position: absolute;
+    top: 119px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .ear .Ear{
-    /* Ear */
-
-position: absolute;
-top: 13px;
-left: 50%;
-transform: translateX(-50%) rotate(-5.66deg);
-width: 98px;
-height: 98px;
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .ear {
+    position: absolute;
+    left: 47.22%;
+    right: 42.6%;
+    top: 0.63%;
+    bottom: 95.49%;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .ear .click-me{
-    /* click me */
-
-position: absolute;
-top: 119px;
-left: 50%;
-transform: translateX(-50%);
-white-space: nowrap;
-
-font-family: 'Inclusive Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 44px;
-
-color: #000000;
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .ear .Ear {
+    position: absolute;
+    top: 13px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-5.66deg);
+    width: 98px;
+    height: 98px;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .text{
-    /* text */
-
-position: absolute;
-width: 525px;
-height: 221px;
-left: 5px;
-top: 13px;
-
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .ear .click-me {
+    position: absolute;
+    top: 119px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .text .AirPods-Pro-3{
-    /* AirPods Pro 3 */
-
-position: absolute;
-width: 700px;
-left: 20px;
-top: 0px;
-
-font-family: 'Inclusive Sans';
-font-style: italic;
-font-weight: 400;
-font-size: 96px;
-line-height: 116px;
-
-color: #000000;
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .text {
+    position: absolute;
+    width: 525px;
+    height: 221px;
+    left: 5px;
+    top: 13px;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .text .The-worlds-best-Active-Noise-Cancellation{
-    /* The world's best Active Noise Cancellation. */
-
-position: absolute;
-width: 800px;
-left: 20px;
-top: 116px;
-
-font-family: 'Inclusive Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 48px;
-
-color: #000000;
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .text .AirPods-Pro-3 {
+    position: absolute;
+    width: 700px;
+    left: 20px;
+    top: 0px;
+    font-family: 'Inclusive Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 116px;
+    color: #000000;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .background{
-    /* background */
-
-position: absolute;
-width: 1920px;
-height: 268px;
-left: 0px;
-top: 0px;
-z-index: -1;
-
-background: #FFFFFF;
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .header .top-panel .text .The-worlds-best-Active-Noise-Cancellation {
+    position: absolute;
+    width: 800px;
+    left: 20px;
+    top: 116px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .Frame-31{
-    /* Frame 31 */
-
-position: absolute;
-width: 1920px;
-height: 508px;
-left: 0px;
-top: 1269.33px;
-
+/* ── Frame 31: block, fixed height, flows after header ── */
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .Frame-31 {
+    position: relative;
+    width: 1920px;
+    height: 508px;
+    flex: none;
+    order: 3;
+    align-self: stretch;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .Frame-31 .background-frame-31{
-    /* background frame 31 */
-
-position: absolute;
-width: 1920px;
-height: 500px;
-left: 0px;
-top: 0px;
-z-index: -1;
-
-background: linear-gradient(180deg, #2A2A2A 0%, #515151 42.31%, #D6D6D6 100%);
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .Frame-31 .background-frame-31 {
+    position: absolute;
+    width: 1920px;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    background: linear-gradient(180deg, #2A2A2A 0%, #515151 42.31%, #D6D6D6 100%);
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .Frame-31 .Click-to-Explore-our-features{
-    /* Click to Explore our features */
-
-position: absolute;
-width: 799px;
-height: 202px;
-left: calc(50% - 799px/2 + 0.5px);
-top: calc(50% - 202px/2 - 17px);
-z-index: 1;
-
-font-family: 'Inclusive Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 83.9906px;
-line-height: 101px;
-text-align: center;
-
-background: linear-gradient(180deg, #FFFFFF 0%, #999999 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .Frame-31 .Click-to-Explore-our-features {
+    position: absolute;
+    width: 799px;
+    height: 202px;
+    left: calc(50% - 799px/2 + 0.5px);
+    top: calc(50% - 202px/2 - 17px);
+    z-index: 1;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 83.9906px;
+    line-height: 101px;
+    text-align: center;
+    background: linear-gradient(180deg, #FFFFFF 0%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 
