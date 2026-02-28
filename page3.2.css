@@ -1,0 +1,164 @@
+html {
+    zoom: calc(100vw / 1920px);
+}
+
+.inspect-anim-2 {
+    position: relative;
+    width: 1920px;
+    min-height: 1365.33px;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+    isolation: isolate;
+}
+
+/* ── Background: covers full page behind everything ── */
+.inspect-anim-2 .background {
+    position: absolute;
+    inset: 0;
+    width: 1920px;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.inspect-anim-2 .background .background-colour {
+    position: absolute;
+    inset: 0;
+    width: 1920px;
+    height: 100%;
+    background: linear-gradient(180deg, #FFFFFF 0%, #2A2A2A 100%);
+}
+
+/* ── Actual header: flows first in the column ── */
+.inspect-anim-2 .actual-header {
+    position: relative;
+    width: 1920px;
+    height: 120px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+}
+
+.inspect-anim-2 .actual-header .top-text-that-goes-to-other-places {
+    position: absolute;
+    width: 1825.33px;
+    height: 82.67px;
+    left: 56px;
+    top: 37.33px;
+}
+
+.inspect-anim-2 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 48px;
+    position: absolute;
+    width: 502.67px;
+    height: 74.67px;
+    left: 1200px;
+    top: 37.33px;
+}
+
+.inspect-anim-2 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .About {
+    width: 128px;
+    height: 74.67px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 51px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.inspect-anim-2 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .Contact {
+    width: 161.33px;
+    height: 74.67px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 51px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.inspect-anim-2 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .Apple-Store {
+    width: 220px;
+    height: 74.67px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 51px;
+    color: #000000;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.inspect-anim-2 .actual-header .top-text-that-goes-to-other-places .Home {
+    position: absolute;
+    width: 121.33px;
+    height: 74.67px;
+    left: 56px;
+    top: 45.33px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 51px;
+    color: #000000;
+}
+
+/* ── Overlay elements: absolute over the background ── */
+.inspect-anim-2 .text1 {
+    position: absolute;
+    width: 484px;
+    height: 134px;
+    left: 1445.33px;
+    top: 580px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55.5273px;
+    line-height: 67px;
+    color: #FFFFFF;
+}
+
+.inspect-anim-2 .text2 {
+    position: absolute;
+    width: 484px;
+    height: 134px;
+    left: 1469.33px;
+    top: 418.67px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55.5273px;
+    line-height: 67px;
+    color: #FFFFFF;
+}
+
+/* Vector flipped horizontally using scaleX(-1) — cleaner than matrix() */
+.inspect-anim-2 .Vector-25 {
+    position: absolute;
+    width: 632px;
+    height: 149.33px;
+    left: 1262.67px;
+    top: 418.67px;
+    transform-origin: center center;
+}
+
+.inspect-anim-2 .airpods-svg-right {
+    position: absolute;
+    width: 898.1px;
+    height: 798.05px;
+    left: 604px;
+    top: 166.67px;
+}
