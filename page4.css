@@ -12,6 +12,7 @@ background: #FFFFFF;
 
 }
 
+<<<<<<< Updated upstream
 .IDD-FIGMA-PAGE-4-info-page .page-4{
     /* page 4 */
 
@@ -34,6 +35,34 @@ left: 5px;
 top: 0px;
 
 
+=======
+.IDD-FIGMA-PAGE-4-info-page .page-4 {
+    position: relative;
+    width: 1920px;
+    min-height: 5119px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ── Big background: covers full page, behind everything ── */
+.IDD-FIGMA-PAGE-4-info-page .page-4 .big-background {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(180deg, #838383 0%, #1B1B1B 100%);
+}
+
+/* ── Header: sticky so it stays visible while scrolling ── */
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 1920px;
+    height: 268px;
+    background: #FFFFFF;
+    overflow: visible;
+    flex: none;
+>>>>>>> Stashed changes
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel{
@@ -48,6 +77,7 @@ bottom: 93.02%;
 
 }
 
+<<<<<<< Updated upstream
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .heart{
     /* heart */
 
@@ -70,6 +100,24 @@ transform: translateX(-50%);
 width: 98px;
 height: 98px;
 
+=======
+/* ── Top panel and all icon/text children: Figma % positions, untouched ── */
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel {
+    position: absolute;
+    left: 2.06%;
+    right: 2.08%;
+    top: 0%;
+    bottom: 93.02%;
+    z-index: 1;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .heart {
+    position: absolute;
+    left: 87.74%;
+    right: 2.08%;
+    top: 0.29%;
+    bottom: 95.49%;
+>>>>>>> Stashed changes
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .heart .click-me{
@@ -103,6 +151,7 @@ bottom: 95.49%;
 
 }
 
+<<<<<<< Updated upstream
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .sound .Speaker{
     /* Speaker */
 
@@ -113,6 +162,14 @@ transform: translateX(-50%);
 width: 98px;
 height: 98px;
 
+=======
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .sound {
+    position: absolute;
+    left: 74.23%;
+    right: 15.58%;
+    top: 0.94%;
+    bottom: 95.49%;
+>>>>>>> Stashed changes
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .sound .click-me{
@@ -146,6 +203,7 @@ bottom: 95.49%;
 
 }
 
+<<<<<<< Updated upstream
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .silence .Silence{
     /* Silence */
 
@@ -156,6 +214,14 @@ transform: translateX(-50%);
 width: 98px;
 height: 98px;
 
+=======
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .silence {
+    position: absolute;
+    left: 60.73%;
+    right: 29.09%;
+    top: 0.29%;
+    bottom: 95.49%;
+>>>>>>> Stashed changes
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .silence .click-me{
@@ -189,6 +255,7 @@ bottom: 95.49%;
 
 }
 
+<<<<<<< Updated upstream
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .ear .Ear{
     /* Ear */
 
@@ -199,6 +266,14 @@ transform: translateX(-50%) rotate(-5.66deg);
 width: 98px;
 height: 98px;
 
+=======
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .ear {
+    position: absolute;
+    left: 47.22%;
+    right: 42.6%;
+    top: 0.63%;
+    bottom: 95.49%;
+>>>>>>> Stashed changes
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .ear .click-me{
@@ -230,6 +305,15 @@ left: 5px;
 top: 13px;
 
 
+<<<<<<< Updated upstream
+=======
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .text {
+    position: absolute;
+    width: 525px;
+    height: 221px;
+    left: 5px;
+    top: 13px;
+>>>>>>> Stashed changes
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .text .AirPods-Pro-3 {
@@ -268,6 +352,62 @@ color: #000000;
 
 }
 
+<<<<<<< Updated upstream
 
 
 
+=======
+/* ── All sections below header: normal block flow, stack automatically ── */
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .tip-image {
+    width: 1914.67px;
+    height: 600px;
+    background: url(image.png) center / cover no-repeat;
+    flex: none;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .fit-and-feel {
+    width: 1914.67px;
+    height: 600px;
+    flex: none;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .noise-cancellation-image {
+    width: 1914.67px;
+    height: 600px;
+    background: url(image.png) center / cover no-repeat;
+    flex: none;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .noise-cancellation {
+    width: 1918.67px;
+    height: 600px;
+    flex: none;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .sound-quality-image {
+    width: 1914.67px;
+    height: 600px;
+    background: url(image.png) center / cover no-repeat;
+    flex: none;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .sound-quality {
+    width: 1914.67px;
+    height: 601.33px;
+    flex: none;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .heartbeat-sensor-image {
+    width: 1920px;
+    height: 600px;
+    background: url(image.png) center / cover no-repeat;
+    flex: none;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .heartbeat-sensor {
+    width: 1914.67px;
+    height: 600px;
+    flex: none;
+}
+>>>>>>> Stashed changes
