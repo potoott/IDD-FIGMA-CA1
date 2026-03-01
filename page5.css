@@ -1,0 +1,372 @@
+html {
+    zoom: calc(100vw / 1920px);
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 {
+    position: relative;
+    width: 1920px;
+    min-height: 9603px;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+    isolation: isolate;
+}
+
+/* ── Background: covers full page behind everything ── */
+.IDD-FIGMA-PAGE-5-info-page-2 .background {
+    position: absolute;
+    inset: 0;
+    width: 1920px;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .background .background-colour {
+    position: absolute;
+    inset: 0;
+    width: 1920px;
+    height: 100%;
+    background: linear-gradient(180deg, #353535 0%, #030303 100%);
+}
+
+/* ── Actual header: sticky, taller than other pages because it holds title text ── */
+.IDD-FIGMA-PAGE-5-info-page-2 .actual-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 1920px;
+    height: 268px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    overflow: hidden;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .actual-header .bg {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: #D9D9D9;
+}
+
+/* ── Nav row: same as all other pages ── */
+.IDD-FIGMA-PAGE-5-info-page-2 .actual-header .top-text-that-goes-to-other-places {
+    position: absolute;
+    width: 1825.33px;
+    height: 82.67px;
+    left: 56px;
+    top: 18px;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 48px;
+    position: absolute;
+    width: 502.67px;
+    height: 74.67px;
+    left: 1200px;
+    top: 0px;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .About {
+    width: 128px;
+    height: 74.67px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 51px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .Contact {
+    width: 161.33px;
+    height: 74.67px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 51px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .Apple-Store {
+    width: 220px;
+    height: 74.67px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 51px;
+    color: #000000;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .actual-header .top-text-that-goes-to-other-places .Home {
+    position: absolute;
+    width: 121.33px;
+    height: 74.67px;
+    left: 56px;
+    top: 8px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 51px;
+    color: #000000;
+}
+
+/* ── Title text: sits below the nav row inside the header ── */
+.IDD-FIGMA-PAGE-5-info-page-2 .actual-header .text1 {
+    position: absolute;
+    left: 44px;
+    top: 110px;
+    font-family: 'Inclusive Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 99.3295px;
+    line-height: 119px;
+    color: #000000;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .actual-header .text2 {
+    position: absolute;
+    left: 43px;
+    top: 215px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 41.3873px;
+    line-height: 50px;
+    color: #000000;
+}
+
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 70.6667px 0px;
+    isolation: isolate;
+
+    position: relative;
+    width: 1920px;
+    height: 9267px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-34{
+   /* Frame 34 */
+
+width: 1920px;
+height: 1041px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+}
+
+/* ── airpods-pro-customizable: centred wrapper, contains all absolutely-positioned children ── */
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-34 .airpods-pro-customizable {
+    position: absolute;
+    width: 786.83px;
+    height: 1063.28px;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-34 .airpods-pro-customizable .airpods{
+    position: absolute;
+    width: 73.76%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0%;
+    bottom: 41.93%;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-34 .airpods-pro-customizable .Customise-your-Airpods{
+    position: absolute;
+    width: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 54.08%;
+    bottom: 38.02%;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 69.9598px;
+    line-height: 84px;
+    text-align: center;
+    background: linear-gradient(180deg, #FFFFFF 0%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-34 .airpods-pro-customizable .white{
+    position: absolute;
+    width: 11.44%;
+    left: calc(50% - 22.72%);
+    top: 65.7%;
+    bottom: 25.83%;
+    background: radial-gradient(97.2% 97.2% at 73.43% 6.64%, #FFFFFF 0%, #B1B1B1 100%);
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-34 .airpods-pro-customizable .black{
+    position: absolute;
+    width: 11.44%;
+    left: calc(50% - 7.59%);
+    top: 65.7%;
+    bottom: 25.83%;
+    background: radial-gradient(97.2% 97.2% at 73.43% 6.64%, #747474 0%, #000000 100%);
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-34 .airpods-pro-customizable .pink{
+    position: absolute;
+    width: 11.44%;
+    left: calc(50% + 7.54%);
+    top: 65.7%;
+    bottom: 25.83%;
+    background: radial-gradient(97.2% 97.2% at 73.43% 6.64%, #FFA5A5 0%, #FF6B6B 100%);
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-34 .airpods-pro-customizable .yellow{
+    position: absolute;
+    width: 11.44%;
+    left: calc(50% + 22.67%);
+    top: 65.7%;
+    bottom: 25.83%;
+    background: radial-gradient(97.2% 97.2% at 73.43% 6.64%, #FFEDA5 0%, #FFC94C 100%);
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-34 .airpods-pro-customizable .earphone-tip-selection{
+    position: absolute;
+    width: 95.83%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 77.84%;
+    bottom: 0%;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-43{
+    /* Frame 43 */
+
+width: 1920px;
+height: 76px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+z-index: 1;
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-43{
+    /* More Information */
+
+position: relative;
+width: 1920px;
+height: 76px;
+left: 0px;
+top: 0px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+color: #004CFF;
+
+
+}
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-35 {
+    width: 1920px;
+    height: 1633.33px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 176.33px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-35 .experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 45.33px;
+    width: 1580.5px;
+    height: 1280.02px;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-35 .experience .experience {
+    width: 1580.5px;
+    height: 64px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53.3333px;
+    line-height: 64px;
+    text-align: center;
+    color: #5A6EFF;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-35 .experience .hola-earbuds {
+    width: 1353px;
+    height: 655px;
+    background: url(image.png);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-35 .experience .text1 {
+    width: 1581px;
+    height: 465px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42.6667px;
+    line-height: 51px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
