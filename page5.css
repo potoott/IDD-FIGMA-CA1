@@ -306,7 +306,7 @@ color: #004CFF;
 }
 .IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-35 {
     width: 1920px;
-    height: 1633.33px;
+    height: 1400Spx;
     position: relative;
     display: flex;
     justify-content: center;
@@ -370,3 +370,297 @@ color: #004CFF;
     flex-grow: 0;
 }
 
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-37{
+    /* Frame 37 */
+
+width: 1920px;
+height: 1270px;
+position: relative;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+z-index: 3;
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-37 .product{
+    /* product */
+
+position: absolute;
+width: 200px;
+height: 64px;
+left: calc(50% - 200px/2);
+top: 0px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 53.3333px;
+line-height: 64px;
+/* identical to box height */
+text-align: center;
+
+color: #5A6EFF;
+
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-37 .the8-hrs{
+    /* the8-hrs */
+
+position: absolute;
+width: 309px;
+height: 153px;
+left: 290.33px;
+top: 134px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 128px;
+line-height: 154px;
+text-align: right;
+
+color: #FFFFFF;
+
+
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-37 .the10-hrs{
+    /* the10-hrs */
+
+position: absolute;
+width: 390px;
+height: 119px;
+left: 1325.67px;
+top: 157.33px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 128px;
+line-height: 154px;
+
+color: #FFFFFF;
+
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-37 .text1{
+   /* text1 */
+
+position: absolute;
+width: 605px;
+height: 153px;
+left: -6px;
+top: 276.33px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 42.6667px;
+line-height: 51px;
+text-align: right;
+
+color: #FFFFFF;
+
+
+
+
+}
+
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-37 .text2{
+/* text2 */
+
+position: absolute;
+width: 514px;
+height: 203px;
+left: 1326px;
+top: 287.33px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 42.6667px;
+line-height: 51px;
+
+color: #FFFFFF;
+
+
+
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-37 .text2-1{
+    /* text2-1 */
+
+position: absolute;
+width: 121px;
+height: 50px;
+left: 496px;
+top: 126.33px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 42.6667px;
+line-height: 51px;
+
+color: #FFFFFF;
+
+
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-37 .text3-1{
+    /* text3-1 */
+
+position: absolute;
+width: 121px;
+height: 50px;
+left: 1326px;
+top: 126.33px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 42.6667px;
+line-height: 51px;
+
+color: #FFFFFF;
+
+
+}
+
+
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-37 .airpods{
+    /* airpods */
+
+position: absolute;
+width: 672px;
+height: 715.04px;
+left: calc(50% - 672px/2 + 2.33px);
+top: 82px;
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-37 .text3{
+    /* text3 */
+
+position: absolute;
+width: 1658.67px;
+height: 478.67px;
+left: calc(50% - 1658.67px/2 + 13.33px);
+top: 817px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 42.6667px;
+line-height: 51px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-38 {
+    width: 1920px;
+    height: 1350.67px;
+    position: relative;
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 4;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-38 .price {
+    position: absolute;
+    width: 128px;
+    height: 64px;
+    left: calc(50% - 128px/2);
+    top: 0px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53.3333px;
+    line-height: 64px;
+    color: #5A6EFF;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-38 .image-16 {
+    position: absolute;
+    width: 1360.59px;
+    height: 765.33px;
+    left: calc(50% - 1360.59px/2 - 0.67px);
+    top: 90.67px;
+    background: url(image.png);
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-38 .Airpods-Pro-3 {
+    position: absolute;
+    width: 406px;
+    height: 77px;
+    left: calc(50% - 406px/2 - 1px);
+    top: 856px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-38 .text1 {
+    position: absolute;
+    width: 1053px;
+    height: 64px;
+    left: calc(50% - 1053px/2 + 13.5px);
+    top: 1195px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53.3333px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-38 .S349 {
+    position: absolute;
+    width: 1752px;
+    height: 77px;
+    left: calc(50% - 1752px/2);
+    top: 1035.33px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    color: #00FF2B;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-38 .text2 {
+    position: absolute;
+    width: 1752px;
+    height: 102px;
+    left: calc(50% - 1752px/2);
+    top: 933px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42.6667px;
+    line-height: 51px;
+    text-align: center;
+    color: #FFFFFF;
+}
