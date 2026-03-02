@@ -125,6 +125,15 @@
         </div>
     </div>
     <script src="./colourcustomiser.js"></script>
+
+    <script>
+        const preorderBtn = document.querySelector('.Component-3');
+        const bottomGroup = document.querySelector('.bottom-group');
+
+        preorderBtn.addEventListener('click', () => {
+            bottomGroup.classList.toggle('active');
+        });
+    </script>
 </body>
 
 
