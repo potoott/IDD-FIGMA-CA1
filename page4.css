@@ -1,5 +1,6 @@
 html {
-    zoom: calc(100vw / 1914.67px);
+    zoom: calc(100vw / 1920px);
+    scroll-behavior: smooth;
 }
 
 .IDD-FIGMA-PAGE-4-info-page {
@@ -52,7 +53,6 @@ html {
     left: 2.06%;
     right: 2.08%;
     top: 0%;
-    bottom: 93.02%;
     z-index: 1;
 }
 
@@ -230,7 +230,7 @@ html {
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .fit-and-feel {
-    width: 1914.67px;
+    width: 100%;
     height: 600px;
     flex: none;
 }
@@ -242,7 +242,7 @@ html {
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .noise-cancellation-image {
-    width: 1914.67px;
+    width: 100%;
     height: 600px;
     background: url(image.png) center / cover no-repeat;
     flex: none;
