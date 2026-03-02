@@ -825,93 +825,71 @@ color: #FFFFFF;
 
 .IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials {
     position: absolute;
-    width: 1880.18px;
-    height: 323.85px;
+    width: 1880px;
+    height: 400px;
     left: 20px;
     top: 509px;
+    overflow: hidden;        /* hides off-screen slides */
 }
 
-/* ── LEFT ── */
-.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .left {
-    position: absolute;
-    width: 482.63px;
-    height: 225.64px;
-    left: 0px;
-    top: 44.58px;
-}
-
-.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .left .left-top {
-    position: absolute;
-    width: 100%;
-    height: 137.6px;
-    left: 0px;
-    top: 0px;
-}
-
-.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .left .left-bot {
-    position: absolute;
-    width: 100%;
-    height: 75.39px;
-    left: 0px;
-    top: 150px;
-}
-
-/* ── MID ── */
-.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .mid {
-    position: absolute;
-    width: 707.71px;
-    height: 324px;
-    left: 519.39px;
-    top: 0px;
-}
-
-.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .mid .mid-top {
-    position: absolute;
-    width: 100%;
-    height: 200.58px;
-    left: 0px;
-    top: 0px;
-}
-
-.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .mid .mid-bot {
-    position: absolute;
-    width: 100%;
-    height: 111.45px;
-    left: 0px;
-    top: 212.4px;
-}
-
-/* ── RIGHT ── */
+/* ── All three slides share the same base style ── */
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .left,
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .mid,
 .IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .right {
     position: absolute;
-    width: 567.14px;
-    height: 212.53px;
-    left: 1264.03px;
-    top: 57.69px;
+    width: 100%;             /* each slide takes full container width */
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: transform 0.3s ease;
+    user-select: none;
+    cursor: grab;
 }
 
-.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .right .right-top {
-    position: absolute;
-    width: 100%;
-    height: 115.14px;
-    left: 0px;
-    top: 0px;
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .left {
+    transform: translateX(0%);    /* starts centre */
+    z-index: 2;
 }
 
-.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .right .right-bot {
-    position: absolute;
-    width: 100%;
-    height: 74.08px;
-    left: 0px;
-    top: 130px;
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .mid {
+    transform: translateX(100%);  /* starts right */
+    z-index: 1;
 }
 
-/* ── ALL IMAGES ── */
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .right {
+    transform: translateX(-100%); /* starts left */
+    z-index: 1;
+}
+
+/* ── top image (larger testimonial screenshot) ── */
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .left-top,
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .mid-top,
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .right-top {
+    width: 80%;
+    height: 220px;
+}
+
+/* ── bottom image (name/stars strip) ── */
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .left-bot,
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .mid-bot,
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .right-bot {
+    width: 80%;
+    height: 100px;
+}
+
+/* ── all images fill their container ── */
 .IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .image {
     width: 100%;
     height: 100%;
     object-fit: contain;
     display: block;
+    pointer-events: none;   /* prevents image drag interfering with carousel drag */
+    user-select: none;
 }
 .IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-42 {
     width: 1920px;
@@ -932,7 +910,12 @@ color: #FFFFFF;
     top: 50%;
     transform: translate(-50%, -50%);
 }
-
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-42 .Preorder-button:hover .bg{
+background-color: #329AF5;
+}
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-42 .Preorder-button:hover .Preorder-Now{
+color: #FFFFFF;
+}
 .IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-42 .Preorder-button .bg {
     position: absolute;
     left: 0%;
@@ -943,6 +926,7 @@ color: #FFFFFF;
     border-radius: 136.552px;
     border: 2.06897px solid #329AF5;
     z-index: 0;
+    transition: ease;
     
 }
 
@@ -961,6 +945,7 @@ color: #FFFFFF;
     z-index: 1;
     text-align: center;     /* ← centres text horizontally */
     white-space: nowrap;    /* ← keeps it on 1 line */
+    transition: ease;
 }
 
 .IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-40 {
