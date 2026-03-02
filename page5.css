@@ -80,50 +80,18 @@ html {
 .nav-links a:hover {
     opacity: 0.7;
 }
-/* ── Actual header: sticky, taller than other pages because it holds title text ── */
+
+/* ── Actual header: shorter height ── */
 .IDD-FIGMA-PAGE-5-info-page-2 .actual-header {
     position: sticky;
     top: 0;
     z-index: 100;
     width: 1920px;
-    height: 268px;
+    height: 175px; /* reduced from 268px */
     flex: none;
     order: 0;
     align-self: stretch;
     overflow: hidden;
-}
-
-.IDD-FIGMA-PAGE-5-info-page-2 .actual-header .bg {
-    position: absolute;
-    inset: 0;
-    z-index: 0;
-    background: #FFFFFF;
-}
-
-
-/* ── Title text: sits below the nav row inside the header ── */
-.IDD-FIGMA-PAGE-5-info-page-2 .actual-header .text1 {
-    position: absolute;
-    left: 44px;
-    top: 110px;
-    font-family: 'Inclusive Sans';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 99.3295px;
-    line-height: 119px;
-    color: #000000;
-}
-
-.IDD-FIGMA-PAGE-5-info-page-2 .actual-header .text2 {
-    position: absolute;
-    left: 43px;
-    top: 215px;
-    font-family: 'Inclusive Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 41.3873px;
-    line-height: 50px;
-    color: #000000;
 }
 
 
