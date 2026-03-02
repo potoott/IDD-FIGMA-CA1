@@ -30,90 +30,56 @@ html {
 }
 
 /* ── Actual header: flows first in the column ── */
-.inspect-anim-2 .actual-header {
-    position: relative;
-    width: 1920px;
-    height: 120px;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-}
-
-.inspect-anim-2 .actual-header .top-text-that-goes-to-other-places {
-    position: absolute;
-    width: 1825.33px;
-    height: 82.67px;
-    left: 56px;
-    top: 37.33px;
-}
-
-.inspect-anim-2 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore {
+/* Main Navigation */
+.main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    padding: 0px;
-    gap: 48px;
-    position: absolute;
-    width: 502.67px;
-    height: 74.67px;
-    left: 1200px;
-    top: 37.33px;
+    padding: 0 3%; /* Changed from 56px to percentage */
+    background-color: white;
+    z-index: 1000;
+    box-sizing: border-box; /* Important: includes padding in width */
 }
 
-.inspect-anim-2 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .About {
-    width: 128px;
-    height: 74.67px;
+/* Logo/Home link */
+.nav-logo {
     font-family: 'Inclusive Sans';
-    font-style: normal;
+    font-size: clamp(1.5rem, 2vw, 2rem); /* Scales between 1.5rem and 2rem */
     font-weight: 400;
-    font-size: 38px;
-    line-height: 51px;
     color: #000000;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    text-decoration: none;
+    transition: opacity 0.3s;
+    white-space: nowrap; /* Prevents text wrapping */
 }
 
-.inspect-anim-2 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .Contact {
-    width: 161.33px;
-    height: 74.67px;
-    font-family: 'Inclusive Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 38px;
-    line-height: 51px;
-    color: #000000;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+.nav-logo:hover {
+    opacity: 0.7;
 }
 
-.inspect-anim-2 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .Apple-Store {
-    width: 220px;
-    height: 74.67px;
-    font-family: 'Inclusive Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 38px;
-    line-height: 51px;
-    color: #000000;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
+/* Right side navigation links */
+.nav-links {
+    display: flex;
+    gap: clamp(1rem, 3vw, 3rem); /* Scales gap responsively */
+    align-items: center; /* Fixed typo: was "centre" */
 }
 
-.inspect-anim-2 .actual-header .top-text-that-goes-to-other-places .Home {
-    position: absolute;
-    width: 121.33px;
-    height: 74.67px;
-    left: 56px;
-    top: 45.33px;
+.nav-links a {
     font-family: 'Inclusive Sans';
-    font-style: normal;
+    font-size: clamp(1.2rem, 1.8vw, 2rem); /* Scales font size */
     font-weight: 400;
-    font-size: 38px;
-    line-height: 51px;
     color: #000000;
+    text-decoration: none;
+    transition: opacity 0.3s;
+    white-space: nowrap; /* Prevents "Apple Store" from wrapping */
+}
+
+.nav-links a:hover {
+    opacity: 0.7;
 }
 
 /* ── Overlay elements: absolute over the background ── */
