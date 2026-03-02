@@ -3,27 +3,184 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Start all section images as transparent */
+.tip-image .image,
+.fit-and-feel .image,
+.noise-cancellation-image .image,
+.noise-cancellation .image,
+.sound-quality-image .image,
+.sound-quality .image,
+.heartbeat-sensor-image .image,
+.heartbeat-sensor .image {
+    opacity: 0;
+    transition: opacity 1s ease;
+    cursor: pointer;
+}
+
+/* When clicked, become opaque */
+.tip-image .image.visible,
+.fit-and-feel .image.visible,
+.noise-cancellation-image .image.visible,
+.noise-cancellation .image.visible,
+.sound-quality-image .image.visible,
+.sound-quality .image.visible,
+.heartbeat-sensor-image .image.visible,
+.heartbeat-sensor .image.visible {
+    opacity: 1;
+}
+
 .IDD-FIGMA-PAGE-4-info-page {
     position: relative;
     width: 1920px;
-    min-height: 5118.67px;
+    min-height: 4000px;
     background: #FFFFFF;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 {
     position: relative;
     width: 1920px;
-    min-height: 5119px;
+    min-height: 4140px;
     display: flex;
     flex-direction: column;
 }
 
 /* ── Big background: covers full page, behind everything ── */
 .IDD-FIGMA-PAGE-4-info-page .page-4 .big-background {
-    position: absolute;
+    position: relative;
     inset: 0;
     z-index: -1;
     background: linear-gradient(180deg, #838383 0%, #1B1B1B 100%);
+}
+
+/*
+    Calculation for centering text in each image:
+    Header: 150px
+    Each image section: 480px tall
+    Text height: 77px
+    Center top = header + (section_index * 480) + (480/2) - (77/2)
+               = 150 + (n * 480) + 240 - 38
+               = 150 + (n * 480) + 202
+
+    image 1 (n=0): 150 + 0   + 202 = 352px
+    image 2 (n=1): 150 + 480 + 202 = 832px
+    image 3 (n=2): 150 + 960 + 202 = 1312px
+    image 4 (n=3): 150 + 1440 + 202 = 1792px
+    image 5 (n=4): 150 + 1920 + 202 = 2272px
+    image 6 (n=5): 150 + 2400 + 202 = 2752px
+    image 7 (n=6): 150 + 2880 + 202 = 3232px
+    image 8 (n=7): 150 + 3360 + 202 = 3712px
+*/
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .click-to-reveal1 {
+    position: absolute;
+    width: 416px;
+    height: 77px;
+    left: 752px;
+    top: 352px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .click-to-reveal2 {
+    position: absolute;
+    width: 416px;
+    height: 77px;
+    left: 752px;
+    top: 832px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .click-to-reveal3 {
+    position: absolute;
+    width: 416px;
+    height: 77px;
+    left: 752px;
+    top: 1312px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .click-to-reveal4 {
+    position: absolute;
+    width: 416px;
+    height: 77px;
+    left: 752px;
+    top: 1792px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .click-to-reveal5 {
+    position: absolute;
+    width: 416px;
+    height: 77px;
+    left: 752px;
+    top: 2272px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .click-to-reveal6 {
+    position: absolute;
+    width: 416px;
+    height: 77px;
+    left: 752px;
+    top: 2752px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .click-to-reveal7 {
+    position: absolute;
+    width: 416px;
+    height: 77px;
+    left: 752px;
+    top: 3232px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .click-to-reveal8 {
+    position: absolute;
+    width: 416px;
+    height: 77px;
+    left: 752px;
+    top: 3712px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
 }
 
 /* ── Header: sticky so it stays visible while scrolling ── */
@@ -221,6 +378,7 @@ html {
     height: 480px;
     background: url(image.png) center / cover no-repeat;
     flex: none;
+    z-index: 1;
 }
 
 .tip-image .image {
@@ -234,6 +392,7 @@ html {
     width: 100%;
     height: 480px;
     flex: none;
+    z-index: 1;
 }
 
 .fit-and-feel .image {
@@ -248,6 +407,7 @@ html {
     height: 480px;
     background: url(image.png) center / cover no-repeat;
     flex: none;
+    z-index: 1;
 }
 
 .noise-cancellation-image .image {
@@ -261,6 +421,7 @@ html {
     width: 1918.67px;
     height: 480px;
     flex: none;
+    z-index: 1;
 }
 
 .noise-cancellation .image {
@@ -275,6 +436,7 @@ html {
     height: 480px;
     background: url(image.png) center / cover no-repeat;
     flex: none;
+    z-index: 1;
 }
 
 .sound-quality-image .image {
@@ -288,6 +450,7 @@ html {
     width: 1914.67px;
     height: 481px;
     flex: none;
+    z-index: 1;
 }
 
 .sound-quality .image {
@@ -302,6 +465,7 @@ html {
     height: 480px;
     background: url(image.png) center / cover no-repeat;
     flex: none;
+    z-index: 1;
 }
 
 .heartbeat-sensor-image .image {
@@ -315,6 +479,7 @@ html {
     width: 1914.67px;
     height: 480px;
     flex: none;
+    z-index: 1;
 }
 
 .heartbeat-sensor .image {

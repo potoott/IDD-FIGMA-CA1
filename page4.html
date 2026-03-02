@@ -124,11 +124,23 @@
             <div class="heartbeat-sensor" id="part8"><img src="./idd photos/airpods-pg4-part8.png"
                     alt="heartbeat-sensor" class="image">
             </div>
-
-
-
-
+            <span class="click-to-reveal1">click to reveal!</span>
+            <span class="click-to-reveal2">click to reveal!</span>
+            <span class="click-to-reveal3">click to reveal!</span>
+            <span class="click-to-reveal4">click to reveal!</span>
+            <span class="click-to-reveal5">click to reveal!</span>
+            <span class="click-to-reveal6">click to reveal!</span>
+            <span class="click-to-reveal7">click to reveal!</span>
+            <span class="click-to-reveal8">click to reveal!</span>
             <div class="big-background"></div>
 
         </div>
     </div>
+    <script>
+    document.querySelectorAll('.image').forEach(img => {
+        img.addEventListener('click', () => {
+            img.classList.toggle('visible');
+        });
+    });
+</script>
+</body>
