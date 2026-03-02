@@ -222,11 +222,23 @@ html {
     background: url(image.png) center / cover no-repeat;
     flex: none;
 }
+.tip-image .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .fit-and-feel {
     width: 1914.67px;
     height: 600px;
     flex: none;
+}
+.fit-and-feel .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .noise-cancellation-image {
@@ -235,11 +247,23 @@ html {
     background: url(image.png) center / cover no-repeat;
     flex: none;
 }
+.noise-cancellation-image .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .noise-cancellation {
     width: 1918.67px;
     height: 600px;
     flex: none;
+}
+.noise-cancellation .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .sound-quality-image {
@@ -248,11 +272,23 @@ html {
     background: url(image.png) center / cover no-repeat;
     flex: none;
 }
+.sound-quality-image .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .sound-quality {
     width: 1914.67px;
     height: 601.33px;
     flex: none;
+}
+.sound-quality .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .heartbeat-sensor-image {
@@ -261,9 +297,21 @@ html {
     background: url(image.png) center / cover no-repeat;
     flex: none;
 }
+.heartbeat-sensor-image .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .heartbeat-sensor {
     width: 1914.67px;
     height: 600px;
     flex: none;
+}
+.heartbeat-sensor .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
