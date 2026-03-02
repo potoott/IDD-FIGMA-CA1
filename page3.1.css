@@ -121,7 +121,7 @@ html {
     position: absolute;
     width: 484px;
     height: 134px;
-    left: 90.67px;
+    left: 104px;
     top: 532px;
     font-family: 'Inclusive Sans';
     font-style: normal;
@@ -155,8 +155,15 @@ html {
 
 .inspect-anim-1 .airpods-svg-left {
     position: absolute;
-    width: 877.69px;
-    height: 776.72px;
-    left: 474.67px;
+    width: 900px;
+    height: 800px;
+    left: 25%;
     top: 188px;
+}
+
+.airpods-svg-left .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
