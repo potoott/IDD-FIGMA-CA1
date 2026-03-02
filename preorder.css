@@ -1,0 +1,320 @@
+html {
+    zoom: calc(100vw / 1920px);
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page{
+    /* IDD FIGMA PAGE 6 preorder page */
+z-index: -2;
+position: relative;
+width: 1920px;
+height: 1356px;
+
+background: linear-gradient(180deg, #353535 0%, #030303 100%);
+
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .header{
+    /* header */
+
+position: absolute;
+width: 1925px;
+height: 169px;
+left: 0px;
+top: -2px;
+
+
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .header .text1{
+    /* text1 */
+
+position: absolute;
+width: 450px;
+left: 32px;
+top: 0.59%;
+bottom: 52.07%;
+
+font-family: 'Inclusive Sans';
+font-style: italic;
+font-weight: 400;
+font-size: 67.298px;
+line-height: 81px;
+
+color: #000000;
+
+
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .header .text2{
+    /* text2 */
+
+position: absolute;
+width: 569px;
+height: 65px;
+left: 32px;
+top: 81px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 28.0409px;
+line-height: 34px;
+
+color: #000000;
+
+
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .header .background{
+    /* background */
+z-index: -1;
+position: absolute;
+width: 1920px;
+height: 167px;
+left: calc(50% - 1920px/2 - 2.5px);
+top: 2px;
+
+background: #FFFFFF;
+
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .airpods-pro-customizable{
+    /* airpods pro customizable */
+
+position: absolute;
+width: 584.3px;
+height: 789.59px;
+left: 40px;
+top: 232px;
+
+
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .airpods-pro-customizable .airpods-realistic{
+    /* airpods realistic */
+
+position: absolute;
+left: 13.08%;
+right: 13.16%;
+top: 0%;
+bottom: 45%;
+
+
+}
+.airpods-realistic .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .airpods-pro-customizable .Customise-your-Airpods{
+    /* Customise your Airpods */
+
+position: absolute;
+left: 0%;
+right: 0.05%;
+top: 54.08%;
+bottom: 38.07%;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 51.9518px;
+line-height: 62px;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #999999 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+
+
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .airpods-pro-customizable .white{
+    /* white */
+
+position: absolute;
+left: 13.64%;
+right: 74.92%;
+top: 65.7%;
+bottom: 25.83%;
+
+
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .airpods-pro-customizable .black{
+    /* black */
+
+position: absolute;
+left: 33%;
+right: 55.56%;
+top: 65.7%;
+bottom: 25.83%;
+
+
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .airpods-pro-customizable .pink{
+    /* pink */
+
+position: absolute;
+left: 53.56%;
+right: 35.01%;
+top: 65.7%;
+bottom: 25.83%;
+
+
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .airpods-pro-customizable .yellow{
+    /* yellow */
+
+position: absolute;
+left: 74.11%;
+right: 14.45%;
+top: 65.7%;
+bottom: 25.83%;
+
+
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .airpods-pro-customizable .Airpods-Dissect{
+    /* earphone tip selection */
+
+position: absolute;
+left: 2.06%;
+right: 2.11%;
+top: 77.84%;
+bottom: 0%;
+
+
+}
+
+.Airpods-Dissect .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .rightText{
+    /* rightText */
+
+position: absolute;
+width: 813px;
+height: 556px;
+right: 333.67px;
+top: 242.67px;
+
+
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .rightText .Free-customisation{
+    /* Free customisation */
+
+position: absolute;
+width: 343px;
+height: 45px;
+left: 0px;
+top: 0px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 37.868px;
+line-height: 45px;
+
+color: #3DA5FF;
+
+
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .rightText .Preorder-AirPods-Pro-3{
+    /* Preorder AirPods Pro 3 */
+
+position: absolute;
+width: 813px;
+height: 91px;
+left: 0px;
+top: 64px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 75.5887px;
+line-height: 91px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .rightText .description{
+    /* description */
+
+position: absolute;
+width: 636px;
+height: 240px;
+left: -0.33px;
+top: 213.33px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 39.9526px;
+line-height: 48px;
+
+color: #FFFFFF;
+
+
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .Component-3{
+    /* Component 3 */
+
+position: absolute;
+width: 358.67px;
+height: 54.67px;
+left: 0px;
+top: 501.33px;
+
+
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .Component-3 .customise-now{
+    /* customise now */
+
+position: absolute;
+left: 12.64%;
+right: 12.64%;
+top: 9.76%;
+bottom: 7.93%;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 45px;
+text-decoration-line: underline;
+
+color: #3DA5FF;
+
+
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .Component-3 .Rectangle-48{
+    /* Rectangle 48 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #D9D9D9;
+border-radius: 57.3333px;
+
+}
