@@ -32,7 +32,7 @@ html {
     top: 0;
     z-index: 100;
     width: 1920px;
-    height: 268px;
+    height: 150px;
     background: #FFFFFF;
     overflow: visible;
     flex: none;
@@ -42,7 +42,7 @@ html {
     position: absolute;
     inset: 0;
     width: 1914.67px;
-    height: 268px;
+    height: 150px;
     background: #FFFFFF;
     z-index: 0;
 }
@@ -58,7 +58,7 @@ html {
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .heart {
     position: absolute;
-    left: 87.74%;
+    left: 87%;
     right: 2.08%;
     top: 0.29%;
     bottom: 95.49%;
@@ -68,28 +68,28 @@ html {
     position: absolute;
     top: 13px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) scale(0.6);
     width: 98px;
     height: 98px;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .heart .click-me {
     position: absolute;
-    top: 119px;
+    top: 90px;
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
     font-family: 'Inclusive Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 22px;
+    line-height: 28px;
     color: #000000;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .sound {
     position: absolute;
-    left: 74.23%;
+    left: 76%;
     right: 15.58%;
     top: 0.94%;
     bottom: 95.49%;
@@ -99,28 +99,28 @@ html {
     position: absolute;
     top: 13px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) scale(0.6);
     width: 98px;
     height: 98px;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .sound .click-me {
     position: absolute;
-    top: 119px;
+    top: 90px;
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
     font-family: 'Inclusive Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 22px;
+    line-height: 28px;
     color: #000000;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .silence {
     position: absolute;
-    left: 60.73%;
+    left: 65%;
     right: 29.09%;
     top: 0.29%;
     bottom: 95.49%;
@@ -130,28 +130,28 @@ html {
     position: absolute;
     top: 13px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) scale(0.6);
     width: 98px;
     height: 98px;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .silence .click-me {
     position: absolute;
-    top: 119px;
+    top: 90px;
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
     font-family: 'Inclusive Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 22px;
+    line-height: 28px;
     color: #000000;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .ear {
     position: absolute;
-    left: 47.22%;
+    left: 54%;
     right: 42.6%;
     top: 0.63%;
     bottom: 95.49%;
@@ -161,22 +161,22 @@ html {
     position: absolute;
     top: 13px;
     left: 50%;
-    transform: translateX(-50%) rotate(-5.66deg);
+    transform: translateX(-50%) rotate(-5.66deg) scale(0.6);
     width: 98px;
     height: 98px;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .ear .click-me {
     position: absolute;
-    top: 119px;
+    top: 90px;
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
     font-family: 'Inclusive Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 22px;
+    line-height: 28px;
     color: #000000;
 }
 
@@ -196,8 +196,8 @@ html {
     font-family: 'Inclusive Sans';
     font-style: italic;
     font-weight: 400;
-    font-size: 96px;
-    line-height: 116px;
+    font-size: 65px;
+    line-height: 78px;
     color: #000000;
 }
 
@@ -205,12 +205,12 @@ html {
     position: absolute;
     width: 800px;
     left: 20px;
-    top: 116px;
+    top: 90px;
     font-family: 'Inclusive Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 27px;
+    line-height: 32px;
     color: #000000;
 }
 
@@ -218,10 +218,11 @@ html {
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .tip-image {
     width: 1914.67px;
-    height: 600px;
+    height: 480px;
     background: url(image.png) center / cover no-repeat;
     flex: none;
 }
+
 .tip-image .image {
     width: 100%;
     height: 100%;
@@ -231,9 +232,10 @@ html {
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .fit-and-feel {
     width: 100%;
-    height: 600px;
+    height: 480px;
     flex: none;
 }
+
 .fit-and-feel .image {
     width: 100%;
     height: 100%;
@@ -243,10 +245,11 @@ html {
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .noise-cancellation-image {
     width: 100%;
-    height: 600px;
+    height: 480px;
     background: url(image.png) center / cover no-repeat;
     flex: none;
 }
+
 .noise-cancellation-image .image {
     width: 100%;
     height: 100%;
@@ -256,9 +259,10 @@ html {
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .noise-cancellation {
     width: 1918.67px;
-    height: 600px;
+    height: 480px;
     flex: none;
 }
+
 .noise-cancellation .image {
     width: 100%;
     height: 100%;
@@ -268,10 +272,11 @@ html {
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .sound-quality-image {
     width: 1914.67px;
-    height: 600px;
+    height: 480px;
     background: url(image.png) center / cover no-repeat;
     flex: none;
 }
+
 .sound-quality-image .image {
     width: 100%;
     height: 100%;
@@ -281,9 +286,10 @@ html {
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .sound-quality {
     width: 1914.67px;
-    height: 601.33px;
+    height: 481px;
     flex: none;
 }
+
 .sound-quality .image {
     width: 100%;
     height: 100%;
@@ -293,10 +299,11 @@ html {
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .heartbeat-sensor-image {
     width: 1920px;
-    height: 600px;
+    height: 480px;
     background: url(image.png) center / cover no-repeat;
     flex: none;
 }
+
 .heartbeat-sensor-image .image {
     width: 100%;
     height: 100%;
@@ -306,9 +313,10 @@ html {
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .heartbeat-sensor {
     width: 1914.67px;
-    height: 600px;
+    height: 480px;
     flex: none;
 }
+
 .heartbeat-sensor .image {
     width: 100%;
     height: 100%;
