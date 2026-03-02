@@ -798,137 +798,121 @@ color: #FFFFFF;
 
 }
 
-.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials{
-    /* testimonials */
-
-position: absolute;
-width: 1880.18px;
-height: 323.85px;
-left: 20px;
-top: 509px;
-
-
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 {
+    width: 1920px;
+    height: 1017.33px;
+    position: relative;
+    flex: none;
+    order: 6;
+    flex-grow: 0;
+    z-index: 6;
+    align-self: stretch;
 }
 
-.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .left-top{
-    /* left top */
-
-position: absolute;
-height: 137.6px;
-left: 0%;
-right: 73.63%;
-top: 44.58px;
-
-background: url('Screenshot 2026-02-02 235551.png');
-
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .Our-Testimonials {
+    position: absolute;
+    width: 398px;
+    height: 58px;
+    left: 738px;
+    top: 391.67px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
 }
 
-.left-top .image {
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials {
+    position: absolute;
+    width: 1880.18px;
+    height: 323.85px;
+    left: 20px;
+    top: 509px;
+}
+
+/* ── LEFT ── */
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .left {
+    position: absolute;
+    width: 482.63px;
+    height: 225.64px;
+    left: 0px;
+    top: 44.58px;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .left .left-top {
+    position: absolute;
+    width: 100%;
+    height: 137.6px;
+    left: 0px;
+    top: 0px;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .left .left-bot {
+    position: absolute;
+    width: 100%;
+    height: 75.39px;
+    left: 0px;
+    top: 150px;
+}
+
+/* ── MID ── */
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .mid {
+    position: absolute;
+    width: 707.71px;
+    height: 324px;
+    left: 519.39px;
+    top: 0px;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .mid .mid-top {
+    position: absolute;
+    width: 100%;
+    height: 200.58px;
+    left: 0px;
+    top: 0px;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .mid .mid-bot {
+    position: absolute;
+    width: 100%;
+    height: 111.45px;
+    left: 0px;
+    top: 212.4px;
+}
+
+/* ── RIGHT ── */
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .right {
+    position: absolute;
+    width: 567.14px;
+    height: 212.53px;
+    left: 1264.03px;
+    top: 57.69px;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .right .right-top {
+    position: absolute;
+    width: 100%;
+    height: 115.14px;
+    left: 0px;
+    top: 0px;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .right .right-bot {
+    position: absolute;
+    width: 100%;
+    height: 74.08px;
+    left: 0px;
+    top: 130px;
+}
+
+/* ── ALL IMAGES ── */
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .image {
     width: 100%;
     height: 100%;
     object-fit: contain;
     display: block;
 }
-
-.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .left-bot{
-/* left bottom */
-
-position: absolute;
-width: 488.4px;
-height: 75.39px;
-left: 3.28px;
-top: 194.7px;
-
-
-
-}
-
-.left-bot .image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: block;
-}
-
-.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .mid-top{
- /* middle top */
-
-position: absolute;
-height: 200.58px;
-left: 28.38%;
-right: 32.95%;
-top: 0px;
-
-background: url(image.png);
-
-
-}
-
-.mid-top .image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: block;
-}
-
-.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .mid-bot{
-    /* middle bottom */
-
-position: absolute;
-width: 599.85px;
-height: 111.45px;
-left: 597.23px;
-top: 212.4px;
-
-
-
-}
-.mid-bot .image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: block;
-}
-
-.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .right-top{
- /* right top */
-
-position: absolute;
-height: 115.14px;
-left: 69.%;
-right: -0.06%;
-top: 57.69px;
-
-background: url(image.png);
-
-}
-.right-top .image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: block;
-}
-
-
-.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .right-bot{
-  /* right bottom */
-
-position: absolute;
-width: 399.9px;
-height: 74.08px;
-left: 1389.81px;
-top: 196.02px;
-
-
-
-}
-.right-bot .image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: block;
-}
-
 .IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-42 {
     width: 1920px;
     height: 563px;
