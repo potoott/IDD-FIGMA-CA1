@@ -79,18 +79,60 @@ html {
 .nav-links a:hover {
     opacity: 0.7;
 }
+
+.IDD-FIGMA-PAGE-3-inspecting-anim .Airpods-Left-Piece {
+
+    position: absolute;
+    width: 400px;
+    height: 450px;
+    left: 626.67px;
+    top: 90px;
+    z-index: 2;
+
+}
+
+.Airpods-Left-Piece .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.IDD-FIGMA-PAGE-3-inspecting-anim .Airpods-Right-Piece {
+
+    position: absolute;
+    width: 400px;
+    height: 450px;
+    left: 920px;
+    top: 90px;
+    z-index: 2;
+
+
+}
+
+.Airpods-Right-Piece .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
 /* ── AirPods SVG: centred in remaining space below header ──
    position:absolute is appropriate here — it's a decorative/visual
    element overlaid on the gradient background, not a flow element. ── */
-.IDD-FIGMA-PAGE-3-inspecting-anim .airpods{
+.IDD-FIGMA-PAGE-3-inspecting-anim .Airpods-Case {
+    /* Group 22 */
+
     position: absolute;
-    width: 800px;
-    height: 1100px;
+    width: 750px;
+    height: 780px;
     left: 596px;
-    top: 49.33px;
+    top: 312px;
+
+
 }
 
-.airpods .image {
+.Airpods-Case .image {
     width: 100%;
     height: 100%;
     object-fit: contain;
