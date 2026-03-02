@@ -2,6 +2,42 @@ html {
     zoom: calc(100vw / 1920px);
 }
 
+.image-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 500;
+    cursor: pointer;
+    /* centres the cloned image */
+    justify-content: center;
+    align-items: center;
+}
+
+.image-overlay.active {
+    display: flex;
+}
+
+.image-overlay-inner {
+    width: 621.2px;
+    height: 399.68px;
+    transform: scale(2);
+    pointer-events: none;
+}
+
+.image-overlay-inner .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+/* just dim the original when expanded, the clone is what shows centred */
+.image-17.expanded,
+.image-18.expanded,
+.image-19.expanded {
+    opacity: 0.3;
+}
 .IDD-FIGMA-PAGE-5-info-page-2 {
     position: relative;
     width: 1920px;

@@ -186,6 +186,42 @@
         </div>
     </div>
     <script src ='./CycleCarousel.js'></script>
+
+ <div class="image-overlay" id="imageOverlay">
+    <div class="image-overlay-inner" id="imageOverlayInner"></div>
+</div>
+
+<script>
+    const overlay = document.getElementById('imageOverlay');
+    const overlayInner = document.getElementById('imageOverlayInner');
+    const images = document.querySelectorAll('.image-17, .image-18, .image-19');
+
+    images.forEach(img => {
+        img.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const isExpanded = img.classList.contains('expanded');
+
+            // collapse
+            images.forEach(i => i.classList.remove('expanded'));
+            overlayInner.innerHTML = '';
+            overlay.classList.remove('active');
+
+            if (!isExpanded) {
+                // clone the image into the overlay center
+                const clone = img.cloneNode(true);
+                overlayInner.appendChild(clone);
+                img.classList.add('expanded');
+                overlay.classList.add('active');
+            }
+        });
+    });
+
+    overlay.addEventListener('click', () => {
+        images.forEach(i => i.classList.remove('expanded'));
+        overlayInner.innerHTML = '';
+        overlay.classList.remove('active');
+    });
+</script>
 </body>
 
 </html>
