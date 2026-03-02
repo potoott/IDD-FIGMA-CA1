@@ -39,7 +39,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 56px;
+    padding: 0 55px;
     background-color: white;
     z-index: 1000;
 }
@@ -81,12 +81,13 @@ html {
 }
 
 .IDD-FIGMA-PAGE-3-inspecting-anim .Airpods-Left-Piece {
+    transform: scale(0.7);
 
     position: absolute;
     width: 400px;
     height: 450px;
-    left: 626.67px;
-    top: 90px;
+    left: 670px;
+    top: 160px;
     z-index: 2;
 
 }
@@ -99,12 +100,13 @@ html {
 }
 
 .IDD-FIGMA-PAGE-3-inspecting-anim .Airpods-Right-Piece {
+    transform: scale(0.7);
 
     position: absolute;
     width: 400px;
     height: 450px;
-    left: 920px;
-    top: 90px;
+    left: 890px;
+    top: 160px;
     z-index: 2;
 
 
@@ -122,6 +124,7 @@ html {
    element overlaid on the gradient background, not a flow element. ── */
 .IDD-FIGMA-PAGE-3-inspecting-anim .Airpods-Case {
     /* Group 22 */
+    transform: scale(0.7);
 
     position: absolute;
     width: 750px;
