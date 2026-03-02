@@ -21,92 +21,55 @@ html {
     min-height: 1500px;
 }
 
-/* ── Actual header: block, fixed height, no absolute ── */
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header {
-    width: 1920px;
+/* Main Navigation */
+.main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 120px;
-    position: relative;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-}
-
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places {
-    position: absolute;
-    width: 1825.33px;
-    height: 82.67px;
-    left: 56px;
-    top: 37.33px;
-}
-
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    padding: 0px;
+    padding: 0 56px;
+    background-color: white;
+    z-index: 1000;
+}
+
+/* Logo/Home link */
+.nav-logo {
+    font-family: 'Inclusive Sans';
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 51px;
+    color: #000000;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+.nav-logo:hover {
+    opacity: 0.7;
+}
+
+/* Right side navigation links */
+.nav-links {
+    display: flex;
     gap: 48px;
-    position: absolute;
-    width: 502.67px;
-    height: 74.67px;
-    left: 1200px;
-    top: 37.33px;
+    align-items: center;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .About {
-    width: 128px;
-    height: 74.67px;
+.nav-links a {
     font-family: 'Inclusive Sans';
-    font-style: normal;
-    font-weight: 400;
     font-size: 38px;
+    font-weight: 400;
     line-height: 51px;
     color: #000000;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    text-decoration: none;
+    transition: opacity 0.3s;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .Contact {
-    width: 161.33px;
-    height: 74.67px;
-    font-family: 'Inclusive Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 38px;
-    line-height: 51px;
-    color: #000000;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .Apple-Store {
-    width: 220px;
-    height: 74.67px;
-    font-family: 'Inclusive Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 38px;
-    line-height: 51px;
-    color: #000000;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-}
-
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .Home {
-    position: absolute;
-    width: 121.33px;
-    height: 74.67px;
-    left: 56px;
-    top: 45.33px;
-    font-family: 'Inclusive Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 38px;
-    line-height: 51px;
-    color: #000000;
+.nav-links a:hover {
+    opacity: 0.7;
 }
 
 /* ── 3D model section: block, fixed height ── */
