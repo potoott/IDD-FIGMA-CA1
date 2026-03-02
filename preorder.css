@@ -35,7 +35,7 @@ top: -2px;
 
 .IDD-FIGMA-PAGE-6-preorder-page .header .text1{
     /* text1 */
-
+pointer-events: all;
 position: absolute;
 width: 450px;
 left: 32px;
@@ -123,12 +123,12 @@ bottom: 45%;
 
 /* 2. Pink tint */
 .airpods-realistic .image.tint-pink {
-    filter: sepia(1) saturate(4) hue-rotate(300deg) brightness(1);
+    filter: sepia(1) saturate(5) hue-rotate(290deg) brightness(.8);
 }
 
 /* 3. Yellow tint */
 .airpods-realistic .image.tint-yellow {
-    filter: sepia(1) saturate(2) hue-rotate(10deg) contrast(1);
+    filter: sepia(1) saturate(2.5) hue-rotate(10deg) contrast(1) brightness(0.9);
 }
 
 /* 4. Back to normal (white/original) */

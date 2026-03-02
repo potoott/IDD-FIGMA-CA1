@@ -88,7 +88,59 @@ html {
     height: 100%;
     position: relative;
 }
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .The-3d-model .Airpods-Pro-hero{
+/* SPINNING AIRPODS */
 
+position: absolute;
+width: 678.67px;
+height: 285.33px;
+left: 1241.33px;
+top: 234.67px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 4em;
+font-size: 128px;
+line-height: 154px;
+
+color: #FFFFFF;
+
+
+}
+
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .The-3d-model .Preorder-btn{
+    /* Preorder button */
+
+/* Component 2 */
+transform: scale(.9);
+position: absolute;
+width: 634.67px;
+height: 161.74px;
+left: 1241.33px;
+top: 612px;
+
+ 
+}
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .The-3d-model .Preorder-btn .Preorder-now{
+    /* Preorder Now */
+
+position: absolute;
+left: 13.79%;
+right: 13.73%;
+top: 23.76%;
+bottom: 23.68%;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 70.8281px;
+line-height: 85px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
 .IDD-FIGMA-PAGE-1-home-page .Frame-32 .The-3d-model .container3D canvas {
     width: 100% !important;
     height: 100% !important;
