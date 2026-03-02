@@ -1,0 +1,981 @@
+html {
+    zoom: calc(100vw / 1920px);
+}
+
+.image-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 500;
+    cursor: pointer;
+    /* centres the cloned image */
+    justify-content: center;
+    align-items: center;
+}
+
+.image-overlay.active {
+    display: flex;
+}
+
+.image-overlay-inner {
+    width: 621.2px;
+    height: 399.68px;
+    transform: scale(2);
+    pointer-events: none;
+}
+
+.image-overlay-inner .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+/* just dim the original when expanded, the clone is what shows centred */
+.image-17.expanded,
+.image-18.expanded,
+.image-19.expanded {
+    opacity: 0.3;
+}
+.IDD-FIGMA-PAGE-5-info-page-2 {
+    position: relative;
+    width: 1920px;
+    min-height: 9603px;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+    isolation: isolate;
+}
+
+/* ── Background: covers full page behind everything ── */
+.IDD-FIGMA-PAGE-5-info-page-2 .background {
+    position: absolute;
+    inset: 0;
+    width: 1920px;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .background .background-colour {
+    position: absolute;
+    inset: 0;
+    width: 1920px;
+    height: 100%;
+    background: linear-gradient(180deg, #353535 0%, #030303 100%);
+}
+
+/*Navs*/
+/* Main Navigation */
+.main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 56px;
+    background-color: white;
+    z-index: 1000;
+}
+
+/* Logo/Home link */
+.nav-logo {
+    font-family: 'Inclusive Sans';
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 51px;
+    color: #000000;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+.nav-logo:hover {
+    opacity: 0.7;
+}
+
+/* Right side navigation links */
+.nav-links {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.nav-links a {
+    font-family: 'Inclusive Sans';
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 51px;
+    color: #000000;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+.nav-links a:hover {
+    opacity: 0.7;
+}
+
+/* ── Actual header: shorter height ── */
+.IDD-FIGMA-PAGE-5-info-page-2 .actual-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 1920px;
+    height: 175px; /* reduced from 268px */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    overflow: hidden;
+}
+
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 70.6667px 0px;
+    isolation: isolate;
+    position: relative;
+    width: 1920px;
+    min-height: 9267px;  /* ← changed from height to min-height */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;        /* ← add this so it stretches to fill the page */
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-34{
+   /* Frame 34 */
+
+width: 1920px;
+height: 1000px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+}
+
+/* ── airpods-pro-customizable: centred wrapper, contains all absolutely-positioned children ── */
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-34 .airpods-pro-customizable {
+    position: absolute;
+    width: 786.83px;
+    height: 1063.28px;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-34 .airpods-pro-customizable .A4-colour-3-sizes{
+    /* A4-colour-3-sizes */
+
+position: absolute;
+width: 581.51px;
+height: 788.59px;
+left: 102.95px;
+top: 0px;
+
+}
+.A4-colour-3-sizes .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+    
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-34 .airpods-pro-customizable .earphone-tip-selection{
+   /* earphone tip selection */
+
+position: absolute;
+left: 2.53%;
+right: 1.63%;
+top: 77.79%;
+bottom: 0.05%;
+
+
+}
+
+.earphone-tip-selection .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-43{
+    /* Frame 43 */
+
+width: 1920px;
+height: 76px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+z-index: 1;
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-43{
+    /* More Information */
+
+position: relative;
+width: 1920px;
+height: 76px;
+left: 0px;
+top: 0px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+color: #004CFF;
+
+
+}
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-35 {
+    width: 1920px;
+    height: 1500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 176.33px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-35 .experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 45.33px;
+    width: 1580.5px;
+    height: 1280.02px;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-35 .experience .experience {
+    width: 1580.5px;
+    height: 64px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53.3333px;
+    line-height: 64px;
+    text-align: center;
+    color: #5A6EFF;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-35 .experience .hola-earbuds {
+    width: 1353px;
+    height: 655px;
+    background: url(image.png);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.hola-earbuds .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-35 .experience .text1 {
+    width: 1581px;
+    height: 465px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42.6667px;
+    line-height: 51px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-37{
+    /* Frame 37 */
+
+width: 1920px;
+height: 1270px;
+position: relative;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+z-index: 3;
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-37 .product{
+    /* product */
+
+position: absolute;
+width: 200px;
+height: 64px;
+left: calc(50% - 200px/2);
+top: 0px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 53.3333px;
+line-height: 64px;
+/* identical to box height */
+text-align: center;
+
+color: #5A6EFF;
+
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-37 .the8-hrs{
+    /* the8-hrs */
+
+position: absolute;
+width: 309px;
+height: 153px;
+left: 290.33px;
+top: 134px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 128px;
+line-height: 154px;
+text-align: right;
+
+color: #FFFFFF;
+
+
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-37 .the10-hrs{
+    /* the10-hrs */
+
+position: absolute;
+width: 390px;
+height: 119px;
+left: 1325.67px;
+top: 157.33px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 128px;
+line-height: 154px;
+
+color: #FFFFFF;
+
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-37 .text1{
+   /* text1 */
+
+position: absolute;
+width: 605px;
+height: 153px;
+left: -6px;
+top: 276.33px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 42.6667px;
+line-height: 51px;
+text-align: right;
+
+color: #FFFFFF;
+
+
+
+
+}
+
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-37 .text2{
+/* text2 */
+
+position: absolute;
+width: 514px;
+height: 203px;
+left: 1326px;
+top: 287.33px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 42.6667px;
+line-height: 51px;
+
+color: #FFFFFF;
+
+
+
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-37 .text2-1{
+    /* text2-1 */
+
+position: absolute;
+width: 121px;
+height: 50px;
+left: 496px;
+top: 126.33px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 42.6667px;
+line-height: 51px;
+
+color: #FFFFFF;
+
+
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-37 .text3-1{
+    /* text3-1 */
+
+position: absolute;
+width: 121px;
+height: 50px;
+left: 1326px;
+top: 126.33px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 42.6667px;
+line-height: 51px;
+
+color: #FFFFFF;
+
+
+}
+
+
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-37 .airpods{
+    /* airpods */
+
+position: absolute;
+width: 672px;
+height: 715.04px;
+left: calc(50% - 672px/2 + 2.33px);
+top: 82px;
+
+}
+.airpods .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-37 .text3{
+    /* text3 */
+
+position: absolute;
+width: 1658.67px;
+height: 478.67px;
+left: calc(50% - 1658.67px/2 + 13.33px);
+top: 817px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 42.6667px;
+line-height: 51px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-38 {
+    width: 1920px;
+    height: 1350.67px;
+    position: relative;
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 4;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-38 .price {
+    position: absolute;
+    width: 128px;
+    height: 64px;
+    left: calc(50% - 128px/2);
+    top: 0px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53.3333px;
+    line-height: 64px;
+    color: #5A6EFF;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-38 .image-16 {
+    position: absolute;
+    width: 1360.59px;
+    height: 765.33px;
+    left: calc(50% - 1360.59px/2 - 0.67px);
+    top: 90.67px;
+    background: url(image.png);
+}
+.image-16 .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-38 .Airpods-Pro-3 {
+    position: absolute;
+    width: 406px;
+    height: 77px;
+    left: calc(50% - 406px/2 - 1px);
+    top: 856px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-38 .text1 {
+    position: absolute;
+    width: 1053px;
+    height: 64px;
+    left: calc(50% - 1053px/2 + 13.5px);
+    top: 1195px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53.3333px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-38 .S349 {
+    position: absolute;
+    width: 1752px;
+    height: 77px;
+    left: calc(50% - 1752px/2);
+    top: 1035.33px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    color: #00FF2B;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-38 .text2 {
+    position: absolute;
+    width: 1752px;
+    height: 102px;
+    left: calc(50% - 1752px/2);
+    top: 933px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42.6667px;
+    line-height: 51px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-36{
+    /* Frame 36 */
+
+width: 1920px;
+height: 1274.67px;
+    position: relative; /* ← add this */
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+z-index: 5;
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-36 .sustainability-efforts{
+    /* sustainability efforts */
+
+position: absolute;
+width: 521px;
+height: 64px;
+left: calc(50% - 521px/2 + 10.5px);
+top: 12.67px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 53.3333px;
+line-height: 64px;
+/* identical to box height */
+
+color: #5A6EFF;
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-36 .Airpods-Pro-3{
+    /* Airpods Pro 3 */
+
+position: absolute;
+width: 541px;
+height: 102px;
+left: 689px;
+top: 201.33px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 85.3333px;
+line-height: 102px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-36 .and-the-environment{
+    /* and the environment. */
+
+position: absolute;
+width: 646px;
+height: 77px;
+left: 637px;
+top: 304px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+/* identical to box height */
+text-align: center;
+
+color: #00FF0D;
+
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-36 .image-17{
+    /* image 17 */
+
+position: absolute;
+width: 621.2px;
+height: 399.68px;
+left: 310px;
+top: 428.33px;
+
+background: url(image.png);
+
+}
+
+.image-17 .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-36 .image-18{
+/* image 18 */
+
+position: absolute;
+width: 621.2px;
+height: 399.68px;
+left: 989.8px;
+top: 428.33px;
+
+background: url(image.png);
+
+
+}
+
+.image-18 .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-36 .image-19{
+   /* image 19 */
+
+position: absolute;
+width: 621.2px;
+height: 399.68px;
+left: 654.59px;
+top: 874.89px;
+
+background: url(image.png);
+
+
+}
+
+.image-19 .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41{
+    /* Frame 41 */
+
+width: 1920px;
+height: 1017.33px;
+
+position: relative;
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+z-index: 6;
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .Our-Testimonials{
+    /* Our Testimonials */
+
+position: absolute;
+width: 398px;
+height: 58px;
+left: 738px;
+top: 391.67px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 {
+    width: 1920px;
+    height: 1017.33px;
+    position: relative;
+    flex: none;
+    order: 6;
+    flex-grow: 0;
+    z-index: 6;
+    align-self: stretch;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .Our-Testimonials {
+    position: absolute;
+    width: 398px;
+    height: 58px;
+    left: 738px;
+    top: 391.67px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials {
+    position: absolute;
+    width: 1880px;
+    height: 400px;
+    left: 20px;
+    top: 509px;
+    overflow: hidden;        /* hides off-screen slides */
+}
+
+/* ── All three slides share the same base style ── */
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .left,
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .mid,
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .right {
+    position: absolute;
+    width: 100%;             /* each slide takes full container width */
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: transform 0.3s ease;
+    user-select: none;
+    cursor: grab;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .left {
+    transform: translateX(0%);    /* starts centre */
+    z-index: 2;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .mid {
+    transform: translateX(100%);  /* starts right */
+    z-index: 1;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .right {
+    transform: translateX(-100%); /* starts left */
+    z-index: 1;
+}
+
+/* ── top image (larger testimonial screenshot) ── */
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .left-top,
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .mid-top,
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .right-top {
+    width: 80%;
+    height: 220px;
+}
+
+/* ── bottom image (name/stars strip) ── */
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .left-bot,
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .mid-bot,
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .right-bot {
+    width: 80%;
+    height: 100px;
+}
+
+/* ── all images fill their container ── */
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    pointer-events: none;   /* prevents image drag interfering with carousel drag */
+    user-select: none;
+}
+
+
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-42 {
+    width: 1920px;
+    height: 563px;
+    position: relative;
+    flex: none;
+    order: 7;
+    flex-grow: 0;
+    z-index: 7;
+    align-self: stretch;  /* ← stops Frame-22's align-items: flex-end from squashing it */
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-42 .Preorder-button {
+    position: absolute;
+    width: 820px;
+    height: 208.97px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-42 .Preorder-button:hover .bg{
+background-color: #329AF5;
+}
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-42 .Preorder-button:hover .Preorder-Now{
+color: #FFFFFF;
+}
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-42 .Preorder-button .bg {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #FFFFFF;
+    border-radius: 136.552px;
+    border: 2.06897px solid #329AF5;
+    z-index: 0;
+    transition: ease;
+    
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-42 .Preorder-button .Preorder-Now {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 95px;       /* ← bigger */
+    line-height: 1;
+    color: #329AF5;
+    z-index: 1;
+    text-align: center;     /* ← centres text horizontally */
+    white-space: nowrap;    /* ← keeps it on 1 line */
+    transition: ease;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-40 {
+    width: 1920px;
+    min-height: 988px;
+    position: relative;
+    flex: none;
+    order: 8;
+    align-self: stretch;
+    flex-grow: 1;        /* ← pushes to bottom and fills remaining space */
+    z-index: 8;
+    margin-top: auto;    /* ← add this, forces it to the very bottom */
+}
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-40 .footer {
+    position: absolute;
+    inset: 0;             /* ← fills entire Frame-40, no gaps */
+    width: 100%;
+    height: 100%;
+    background: url('Screenshot 2026-02-02 212503.png') center center / cover no-repeat;
+}
+.footer .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}

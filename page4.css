@@ -1,55 +1,186 @@
 html {
-    zoom: calc(100vw / 1914.67px);
+    zoom: calc(100vw / 1920px);
+    scroll-behavior: smooth;
 }
+
+/* Start all section images as transparent */
+.tip-image .image,
+.fit-and-feel .image,
+.noise-cancellation-image .image,
+.noise-cancellation .image,
+.sound-quality-image .image,
+.sound-quality .image,
+.heartbeat-sensor-image .image,
+.heartbeat-sensor .image {
+    opacity: 0;
+    transition: opacity 1s ease;
+    cursor: pointer;
+}
+
+/* When clicked, become opaque */
+.tip-image .image.visible,
+.fit-and-feel .image.visible,
+.noise-cancellation-image .image.visible,
+.noise-cancellation .image.visible,
+.sound-quality-image .image.visible,
+.sound-quality .image.visible,
+.heartbeat-sensor-image .image.visible,
+.heartbeat-sensor .image.visible {
+    opacity: 1;
+}
+
 .IDD-FIGMA-PAGE-4-info-page {
-    /* IDD FIGMA PAGE 4(info page) */
-
-position: relative;
-width: 1920px;
-height: 5118.67px;
-
-background: #FFFFFF;
-
+    position: relative;
+    width: 1920px;
+    min-height: 4000px;
+    background: #FFFFFF;
 }
 
-<<<<<<< Updated upstream
-.IDD-FIGMA-PAGE-4-info-page .page-4{
-    /* page 4 */
-
-position: absolute;
-width: 1920px;
-height: 5119px;
-left: -5px;
-top: 0px;
-
-
-}
-
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header{
-    /* header */
-
-position: absolute;
-width: 1920px;
-height: 268px;
-left: 5px;
-top: 0px;
-
-
-=======
 .IDD-FIGMA-PAGE-4-info-page .page-4 {
     position: relative;
     width: 1920px;
-    min-height: 5119px;
+    min-height: 4140px;
     display: flex;
     flex-direction: column;
 }
 
 /* ── Big background: covers full page, behind everything ── */
 .IDD-FIGMA-PAGE-4-info-page .page-4 .big-background {
-    position: absolute;
+    position: relative;
     inset: 0;
     z-index: -1;
     background: linear-gradient(180deg, #838383 0%, #1B1B1B 100%);
+}
+
+/*
+    Calculation for centering text in each image:
+    Header: 150px
+    Each image section: 480px tall
+    Text height: 77px
+    Center top = header + (section_index * 480) + (480/2) - (77/2)
+               = 150 + (n * 480) + 240 - 38
+               = 150 + (n * 480) + 202
+
+    image 1 (n=0): 150 + 0   + 202 = 352px
+    image 2 (n=1): 150 + 480 + 202 = 832px
+    image 3 (n=2): 150 + 960 + 202 = 1312px
+    image 4 (n=3): 150 + 1440 + 202 = 1792px
+    image 5 (n=4): 150 + 1920 + 202 = 2272px
+    image 6 (n=5): 150 + 2400 + 202 = 2752px
+    image 7 (n=6): 150 + 2880 + 202 = 3232px
+    image 8 (n=7): 150 + 3360 + 202 = 3712px
+*/
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .click-to-reveal1 {
+    position: absolute;
+    width: 416px;
+    height: 77px;
+    left: 752px;
+    top: 352px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .click-to-reveal2 {
+    position: absolute;
+    width: 416px;
+    height: 77px;
+    left: 752px;
+    top: 832px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .click-to-reveal3 {
+    position: absolute;
+    width: 416px;
+    height: 77px;
+    left: 752px;
+    top: 1312px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .click-to-reveal4 {
+    position: absolute;
+    width: 416px;
+    height: 77px;
+    left: 752px;
+    top: 1792px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .click-to-reveal5 {
+    position: absolute;
+    width: 416px;
+    height: 77px;
+    left: 752px;
+    top: 2272px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .click-to-reveal6 {
+    position: absolute;
+    width: 416px;
+    height: 77px;
+    left: 752px;
+    top: 2752px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .click-to-reveal7 {
+    position: absolute;
+    width: 416px;
+    height: 77px;
+    left: 752px;
+    top: 3232px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.IDD-FIGMA-PAGE-4-info-page .page-4 .click-to-reveal8 {
+    position: absolute;
+    width: 416px;
+    height: 77px;
+    left: 752px;
+    top: 3712px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
 }
 
 /* ── Header: sticky so it stays visible while scrolling ── */
@@ -58,356 +189,302 @@ top: 0px;
     top: 0;
     z-index: 100;
     width: 1920px;
-    height: 268px;
+    height: 150px;
     background: #FFFFFF;
     overflow: visible;
     flex: none;
->>>>>>> Stashed changes
 }
 
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel{
-    /* top panel */
-
-position: absolute;
-left: 2.06%;
-right: 2.08%;
-top: 0%;
-bottom: 93.02%;
-
-
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .background {
+    position: absolute;
+    inset: 0;
+    width: 1914.67px;
+    height: 150px;
+    background: #FFFFFF;
+    z-index: 0;
 }
 
-<<<<<<< Updated upstream
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .heart{
-    /* heart */
-
-position: absolute;
-left: 87.74%;
-right: 2.08%;
-top: 0.29%;
-bottom: 95.49%;
-
-
-}
-
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .heart .Heart{
-    /* Heart */
-
-position: absolute;
-top: 13px;
-left: 50%;
-transform: translateX(-50%);
-width: 98px;
-height: 98px;
-
-=======
 /* ── Top panel and all icon/text children: Figma % positions, untouched ── */
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel {
     position: absolute;
     left: 2.06%;
     right: 2.08%;
     top: 0%;
-    bottom: 93.02%;
     z-index: 1;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .heart {
     position: absolute;
-    left: 87.74%;
+    left: 87%;
     right: 2.08%;
     top: 0.29%;
     bottom: 95.49%;
->>>>>>> Stashed changes
 }
 
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .heart .click-me{
-   /* click me */
-
-position: absolute;
-top: 119px;
-left: 50%;
-transform: translateX(-50%);
-white-space: nowrap;
-
-font-family: 'Inclusive Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 44px;
-
-color: #000000;
-
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .heart .Heart {
+    position: absolute;
+    top: 13px;
+    left: 50%;
+    transform: translateX(-50%) scale(0.6);
+    width: 98px;
+    height: 98px;
 }
 
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .sound{
-    /* sound */
-
-position: absolute;
-left: 74.23%;
-right: 15.58%;
-top: 0.94%;
-bottom: 95.49%;
-
-
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .heart .click-me {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
 }
 
-<<<<<<< Updated upstream
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .sound .Speaker{
-    /* Speaker */
-
-position: absolute;
-top: 13px;
-left: 50%;
-transform: translateX(-50%);
-width: 98px;
-height: 98px;
-
-=======
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .sound {
     position: absolute;
-    left: 74.23%;
+    left: 76%;
     right: 15.58%;
     top: 0.94%;
     bottom: 95.49%;
->>>>>>> Stashed changes
 }
 
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .sound .click-me{
-    /* click me */
-
-position: absolute;
-top: 119px;
-left: 50%;
-transform: translateX(-50%);
-white-space: nowrap;
-
-font-family: 'Inclusive Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 44px;
-
-color: #000000;
-
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .sound .Speaker {
+    position: absolute;
+    top: 13px;
+    left: 50%;
+    transform: translateX(-50%) scale(0.6);
+    width: 98px;
+    height: 98px;
 }
 
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .silence{
-    /* silence */
-
-position: absolute;
-left: 60.73%;
-right: 29.09%;
-top: 0.29%;
-bottom: 95.49%;
-
-
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .sound .click-me {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
 }
 
-<<<<<<< Updated upstream
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .silence .Silence{
-    /* Silence */
-
-position: absolute;
-top: 13px;
-left: 50%;
-transform: translateX(-50%);
-width: 98px;
-height: 98px;
-
-=======
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .silence {
     position: absolute;
-    left: 60.73%;
+    left: 65%;
     right: 29.09%;
     top: 0.29%;
     bottom: 95.49%;
->>>>>>> Stashed changes
 }
 
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .silence .click-me{
-/* click me */
-
-position: absolute;
-top: 119px;
-left: 50%;
-transform: translateX(-50%);
-white-space: nowrap;
-
-font-family: 'Inclusive Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 44px;
-
-color: #000000;
-
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .silence .Silence {
+    position: absolute;
+    top: 13px;
+    left: 50%;
+    transform: translateX(-50%) scale(0.6);
+    width: 98px;
+    height: 98px;
 }
 
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .ear{
-    /* ear */
-
-position: absolute;
-left: 47.22%;
-right: 42.6%;
-top: 0.63%;
-bottom: 95.49%;
-
-
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .silence .click-me {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
 }
 
-<<<<<<< Updated upstream
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .ear .Ear{
-    /* Ear */
-
-position: absolute;
-top: 13px;
-left: 50%;
-transform: translateX(-50%) rotate(-5.66deg);
-width: 98px;
-height: 98px;
-
-=======
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .ear {
     position: absolute;
-    left: 47.22%;
+    left: 54%;
     right: 42.6%;
     top: 0.63%;
     bottom: 95.49%;
->>>>>>> Stashed changes
 }
 
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .ear .click-me{
-    /* click me */
-
-position: absolute;
-top: 119px;
-left: 50%;
-transform: translateX(-50%);
-white-space: nowrap;
-
-font-family: 'Inclusive Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 44px;
-
-color: #000000;
-
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .ear .Ear {
+    position: absolute;
+    top: 13px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-5.66deg) scale(0.6);
+    width: 98px;
+    height: 98px;
 }
 
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .text{
-    /* text */
+.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .ear .click-me {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
 
-position: absolute;
-width: 525px;
-height: 221px;
-left: 5px;
-top: 13px;
-
-
-<<<<<<< Updated upstream
-=======
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .text {
     position: absolute;
     width: 525px;
     height: 221px;
     left: 5px;
     top: 13px;
->>>>>>> Stashed changes
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .text .AirPods-Pro-3 {
-    /* AirPods Pro 3 */
-
-position: absolute;
-width: 700px;
-left: 20px;
-top: 0px;
-
-font-family: 'Inclusive Sans';
-font-style: italic;
-font-weight: 400;
-font-size: 96px;
-line-height: 116px;
-
-color: #000000;
-
+    position: absolute;
+    width: 700px;
+    left: 20px;
+    top: 0px;
+    font-family: 'Inclusive Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 78px;
+    color: #000000;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .text .The-worlds-best-Active-Noise-Cancellation {
-    /* The world's best Active Noise Cancellation. */
-
-position: absolute;
-width: 800px;
-left: 20px;
-top: 116px;
-
-font-family: 'Inclusive Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 48px;
-
-color: #000000;
-
+    position: absolute;
+    width: 800px;
+    left: 20px;
+    top: 90px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 32px;
+    color: #000000;
 }
 
-<<<<<<< Updated upstream
-
-
-
-=======
 /* ── All sections below header: normal block flow, stack automatically ── */
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .tip-image {
     width: 1914.67px;
-    height: 600px;
+    height: 480px;
     background: url(image.png) center / cover no-repeat;
     flex: none;
+    z-index: 1;
+}
+
+.tip-image .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .fit-and-feel {
-    width: 1914.67px;
-    height: 600px;
+    width: 100%;
+    height: 480px;
     flex: none;
+    z-index: 1;
+}
+
+.fit-and-feel .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .noise-cancellation-image {
-    width: 1914.67px;
-    height: 600px;
+    width: 100%;
+    height: 480px;
     background: url(image.png) center / cover no-repeat;
     flex: none;
+    z-index: 1;
+}
+
+.noise-cancellation-image .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .noise-cancellation {
     width: 1918.67px;
-    height: 600px;
+    height: 480px;
     flex: none;
+    z-index: 1;
+}
+
+.noise-cancellation .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .sound-quality-image {
     width: 1914.67px;
-    height: 600px;
+    height: 480px;
     background: url(image.png) center / cover no-repeat;
     flex: none;
+    z-index: 1;
+}
+
+.sound-quality-image .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .sound-quality {
     width: 1914.67px;
-    height: 601.33px;
+    height: 481px;
     flex: none;
+    z-index: 1;
+}
+
+.sound-quality .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .heartbeat-sensor-image {
     width: 1920px;
-    height: 600px;
+    height: 480px;
     background: url(image.png) center / cover no-repeat;
     flex: none;
+    z-index: 1;
+}
+
+.heartbeat-sensor-image .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 .IDD-FIGMA-PAGE-4-info-page .page-4 .heartbeat-sensor {
     width: 1914.67px;
-    height: 600px;
+    height: 480px;
     flex: none;
+    z-index: 1;
 }
->>>>>>> Stashed changes
+
+.heartbeat-sensor .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}

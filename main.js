@@ -6,7 +6,7 @@ import { GUI } from 'https://esm.sh/three@0.153.0/examples/jsm/libs/lil-gui.modu
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.01, 1000);
-camera.position.set(5, 5, 5); // Set initial camera position
+camera.position.set(5, 6, 5); // Set initial camera position
 
 let object;
 let controls;

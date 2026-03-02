@@ -1,39 +1,7 @@
-header {
-    display: flex;
-    margin-top: 1em;
-    margin-left: 3em;
-    justify-content: space-between;
-    background-color: rgba(240, 248, 255, 0);
+html {
+    zoom: calc(100vw / 1920px);
 }
 
-<<<<<<< Updated upstream
-header h1 {
-    font-size: 2em;
-    font-weight: 900;
-    color: rgb(0, 0, 0);
-}
-
-header p {
-    font-size: 1.5em;
-    color: rgb(255, 255, 255);
-}
-
-header .left {
-    margin: 0;
-    padding: 0;
-    justify-content: flex-start;
-    color: rgb(255, 255, 255);
-}
-header .right{
-    justify-content: end;
-    display: flex;
-    gap: 1em;
-}
-
-#container3D {
-    width: 1000vw;
-    height: 50vh;
-=======
 /* ── Page wrapper ── */
 .IDD-FIGMA-PAGE-1-home-page {
     position: relative;
@@ -53,92 +21,55 @@ header .right{
     min-height: 1500px;
 }
 
-/* ── Actual header: block, fixed height, no absolute ── */
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header {
-    width: 1920px;
+/* Main Navigation */
+.main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 120px;
-    position: relative;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-}
-
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places {
-    position: absolute;
-    width: 1825.33px;
-    height: 82.67px;
-    left: 56px;
-    top: 37.33px;
-}
-
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    padding: 0px;
+    padding: 0 56px;
+    background-color: white;
+    z-index: 1000;
+}
+
+/* Logo/Home link */
+.nav-logo {
+    font-family: 'Inclusive Sans';
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 51px;
+    color: #000000;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+.nav-logo:hover {
+    opacity: 0.7;
+}
+
+/* Right side navigation links */
+.nav-links {
+    display: flex;
     gap: 48px;
-    position: absolute;
-    width: 502.67px;
-    height: 74.67px;
-    left: 1200px;
-    top: 37.33px;
+    align-items: center;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .About {
-    width: 128px;
-    height: 74.67px;
+.nav-links a {
     font-family: 'Inclusive Sans';
-    font-style: normal;
-    font-weight: 400;
     font-size: 38px;
+    font-weight: 400;
     line-height: 51px;
     color: #000000;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    text-decoration: none;
+    transition: opacity 0.3s;
 }
 
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .Contact {
-    width: 161.33px;
-    height: 74.67px;
-    font-family: 'Inclusive Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 38px;
-    line-height: 51px;
-    color: #000000;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .about-contact-applestore .Apple-Store {
-    width: 220px;
-    height: 74.67px;
-    font-family: 'Inclusive Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 38px;
-    line-height: 51px;
-    color: #000000;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-}
-
-.IDD-FIGMA-PAGE-1-home-page .Frame-32 .actual-header .top-text-that-goes-to-other-places .Home {
-    position: absolute;
-    width: 121.33px;
-    height: 74.67px;
-    left: 56px;
-    top: 45.33px;
-    font-family: 'Inclusive Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 38px;
-    line-height: 51px;
-    color: #000000;
+.nav-links a:hover {
+    opacity: 0.7;
 }
 
 /* ── 3D model section: block, fixed height ── */
@@ -155,274 +86,67 @@ header .right{
 .IDD-FIGMA-PAGE-1-home-page .Frame-32 .The-3d-model .container3D {
     width: 100%;
     height: 100%;
->>>>>>> Stashed changes
     position: relative;
 }
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .The-3d-model .Airpods-Pro-hero{
+/* SPINNING AIRPODS */
 
-#container3D canvas {
+position: absolute;
+width: 678.67px;
+height: 285.33px;
+left: 1241.33px;
+top: 234.67px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 4em;
+font-size: 128px;
+line-height: 154px;
+
+color: #FFFFFF;
+
+
+}
+
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .The-3d-model .Preorder-btn{
+    /* Preorder button */
+
+/* Component 2 */
+transform: scale(.9);
+position: absolute;
+width: 634.67px;
+height: 161.74px;
+left: 1241.33px;
+top: 612px;
+
+ 
+}
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .The-3d-model .Preorder-btn .Preorder-now{
+    /* Preorder Now */
+
+position: absolute;
+left: 13.79%;
+right: 13.73%;
+top: 23.76%;
+bottom: 23.68%;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 70.8281px;
+line-height: 85px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+.IDD-FIGMA-PAGE-1-home-page .Frame-32 .The-3d-model .container3D canvas {
     width: 100% !important;
     height: 100% !important;
     display: block;
 }
 
-<<<<<<< Updated upstream
-body {
-    color: white;
-    text-align: center;
-    margin: 0;
-    font-family: "Inclusive Sans", sans-serif;
-    background-color: rgb(0, 0, 0);
-}
-
-body .banner {
-    background-color: rgb(255, 255, 255);
-
-    text-align: left;
-}
-
-body .banner .title {
-    margin-top: 1em;
-    margin-left: 1em;
-    font-size: 2em;
-    font-weight: 900;
-    color: rgb(0, 0, 0);
-}
-
-body .banner .subtext {
-    margin-top: 1em;
-    margin-left: 1em;
-    font-size: 1em;
-    color: rgb(145, 145, 145);
-}
-.IDD-FIGMA-PAGE-4-info-page {
-    /* IDD FIGMA PAGE 4(info page) */
-
-position: relative;
-width: 1914.67px;
-height: 5118.67px;
-
-background: #FFFFFF;
-
-}
-
-.IDD-FIGMA-PAGE-4-info-page .page-4{
-    /* page 4 */
-
-position: absolute;
-width: 1925px;
-height: 5119px;
-left: -5px;
-top: 0px;
-
-
-}
-
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header{
-    /* header */
-
-position: absolute;
-width: 1914.67px;
-height: 357.33px;
-left: 5px;
-top: 0px;
-
-
-}
-
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel{
-    /* top panel */
-
-position: absolute;
-left: 2.06%;
-right: 2.08%;
-top: 0%;
-bottom: 93.02%;
-
-
-}
-
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .heart{
-    /* heart */
-
-position: absolute;
-left: 87.74%;
-right: 2.08%;
-top: 0.29%;
-bottom: 95.49%;
-
-
-}
-
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .heart .Heart{
-    /* Heart
-
-Keywords: like, love, emotion
-*/
-
-position: absolute;
-left: 88.78%;
-right: 3.12%;
-top: 0.29%;
-bottom: 96.67%;
-
-
-}
-
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .heart .click-me{
-   /* click me */
-
-position: absolute;
-left: 87.74%;
-right: 2.08%;
-top: 3.23%;
-bottom: 95.49%;
-
-font-family: 'Inclusive Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 58px;
-
-color: #000000;
-
-
-
-
-}
-
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .sound{
-    /* sound */
-
-position: absolute;
-left: 74.23%;
-right: 15.58%;
-top: 0.94%;
-bottom: 95.49%;
-
-
-}
-
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .sound .Speaker{
-    /* Speaker */
-
-position: absolute;
-left: 76.8%;
-right: 18.25%;
-top: 0.94%;
-bottom: 97.46%;
-
-
-}
-
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .sound .click-me{
-    /* click me */
-
-position: absolute;
-left: 74.23%;
-right: 15.58%;
-top: 3.23%;
-bottom: 95.49%;
-
-font-family: 'Inclusive Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 58px;
-
-color: #000000;
-
-
-}
-
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .silence{
-    /* silence */
-
-position: absolute;
-left: 60.73%;
-right: 29.09%;
-top: 0.29%;
-bottom: 95.49%;
-
-
-}
-
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .silence .Silence{
-    /* Silence */
-
-position: absolute;
-left: 62.11%;
-right: 30.56%;
-top: 0.29%;
-bottom: 96.67%;
-
-
-}
-
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .silence .click-me{
-/* click me */
-
-position: absolute;
-left: 60.73%;
-right: 29.09%;
-top: 3.23%;
-bottom: 95.49%;
-
-font-family: 'Inclusive Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 58px;
-
-color: #000000;
-
-
-}
-
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .ear{
-    /* ear */
-
-position: absolute;
-left: 47.22%;
-right: 42.6%;
-top: 0.63%;
-bottom: 95.49%;
-
-
-}
-
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .ear .Ear{
-/* Ear */
-
-position: absolute;
-left: 49.71%;
-right: 45.71%;
-top: 0.63%;
-bottom: 97.19%;
-
-transform: rotate(-5.66deg);
-
-}
-
-.IDD-FIGMA-PAGE-4-info-page .page-4 .header .top-panel .ear .click-me{
-    /* click me */
-
-position: absolute;
-left: 47.22%;
-right: 42.6%;
-top: 3.23%;
-bottom: 95.49%;
-
-font-family: 'Inclusive Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 58px;
-
-color: #000000;
-
-
-}
-=======
 .IDD-FIGMA-PAGE-1-home-page .Frame-32 .The-3d-model .The-3d-model-bg {
     position: absolute;
     width: 1920px;
@@ -662,4 +386,3 @@ color: #000000;
 
 
 
->>>>>>> Stashed changes

@@ -1,0 +1,137 @@
+html {
+    zoom: calc(100vw / 1920px);
+    
+}
+
+.inspect-anim-1 {
+    position: relative;
+    width: 100%;
+    min-height: 1365.33px;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+    isolation: isolate; /* makes z-index stacking work within this container */
+}
+
+/* ── Background: covers full page behind everything ── */
+.inspect-anim-1 .background {
+    position: absolute;
+    inset: 0;
+    width: 1920px;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.inspect-anim-1 .background .background-colour {
+    position: absolute;
+    inset: 0;
+    width: 1920px;
+    height: 100%;
+    background: linear-gradient(180deg, #FFFFFF 0%, #2A2A2A 100%);
+}
+
+/* ── Actual header: flows first in the column ── */
+/* Main Navigation */
+.main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%; /* Changed from 56px to percentage */
+    background-color: white;
+    z-index: 1000;
+    box-sizing: border-box; /* Important: includes padding in width */
+}
+
+/* Logo/Home link */
+.nav-logo {
+    font-family: 'Inclusive Sans';
+    font-size: clamp(1.5rem, 2vw, 2rem); /* Scales between 1.5rem and 2rem */
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    transition: opacity 0.3s;
+    white-space: nowrap; /* Prevents text wrapping */
+}
+
+.nav-logo:hover {
+    opacity: 0.7;
+}
+
+/* Right side navigation links */
+.nav-links {
+    display: flex;
+    gap: clamp(1rem, 3vw, 3rem); /* Scales gap responsively */
+    align-items: center; /* Fixed typo: was "centre" */
+}
+
+.nav-links a {
+    font-family: 'Inclusive Sans';
+    font-size: clamp(1.2rem, 1.8vw, 2rem); /* Scales font size */
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    transition: opacity 0.3s;
+    white-space: nowrap; /* Prevents "Apple Store" from wrapping */
+}
+
+.nav-links a:hover {
+    opacity: 0.7;
+}
+
+/* ── Overlay elements: absolute over the background ── */
+.inspect-anim-1 .text1 {
+    
+    position: relative;
+    width: 484px ;
+    height: 134px;
+    left: 104px;
+    top: 532px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55.5273px;
+    line-height: 67px;
+    color: #FFFFFF;
+}
+
+.inspect-anim-1 .text2 {
+    position: absolute;
+    width: 484px;
+    height: 134px;
+    left: 104px;
+    top: 350.67px;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55.5273px;
+    line-height: 67px;
+    color: #FFFFFF;
+}
+
+.inspect-anim-1 .Vector-25s {
+    position: absolute;
+    width: 533.33px;
+    height: 114.67px;
+    left: 100px;
+    top: 385.33px;
+}
+
+.inspect-anim-1 .airpods-svg-left {
+    position: absolute;
+    width: 900px;
+    height: 800px;
+    left: 25%;
+    top: 188px;
+}
+
+.airpods-svg-left .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
