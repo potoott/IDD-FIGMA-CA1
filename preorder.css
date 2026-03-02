@@ -300,17 +300,19 @@ color: #FFFFFF;
 
 }
 
-.IDD-FIGMA-PAGE-6-preorder-page .Component-3 {
-    position: absolute;
-    width: 358.67px;
-    height: 54.67px;
-    left: 0px;
-    top: 501.33px;
-    cursor: pointer;
-    pointer-events: all;
+.IDD-FIGMA-PAGE-6-preorder-page .rightText .Component-3 {
+   /* Component 3 */
+
+position: absolute;
+width: 358.67px;
+height: 54.67px;
+left: 5.33px;
+top: 501.33px;
+
+
 }
 
-.IDD-FIGMA-PAGE-6-preorder-page .Component-3 .customise-now {
+.IDD-FIGMA-PAGE-6-preorder-page .rightText .Component-3 .customise-now {
     position: absolute;
     left: 12.64%;
     right: 12.64%;
@@ -329,11 +331,11 @@ color: #FFFFFF;
 }
 
 /* parent hover controls text colour */
-.IDD-FIGMA-PAGE-6-preorder-page .Component-3:hover .customise-now {
+.IDD-FIGMA-PAGE-6-preorder-page .rightText .Component-3:hover .customise-now {
     color: #FFFFFF;
 }
 
-.IDD-FIGMA-PAGE-6-preorder-page .Component-3 .Rectangle-48 {
+.IDD-FIGMA-PAGE-6-preorder-page .rightText .Component-3 .Rectangle-48 {
     position: absolute;
     left: 0%;
     right: 0%;
@@ -346,8 +348,151 @@ color: #FFFFFF;
 }
 
 /* parent hover controls background */
-.IDD-FIGMA-PAGE-6-preorder-page .Co
+.IDD-FIGMA-PAGE-6-preorder-page .rightText .Co
 mponent-3:hover .Rectangle-48 {
     background-color: #3DA5FF;
   
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .bottom-group {
+    /* bottom group */
+
+width: 1022.67px;
+height: 404px;
+left: 778.67px;
+top: 889.33px;
+
+
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .bottom-group .emailinput {
+    box-sizing: border-box;
+    position: absolute;
+    left: 40.56%;
+    right: 7.92%;
+    top: 65.59%;
+    bottom: 28.42%;
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .bottom-group .phoneinput {
+    box-sizing: border-box;
+    position: absolute;
+    left: 40.56%;
+    right: 7.92%;
+    top: 74.53%;
+    bottom: 19.47%;
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .bottom-group .form-field {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2.66667px solid #FFFFFF;
+    border-radius: 16px;
+    padding: 0 20px;
+    font-family: 'Inclusive Sans';
+    font-size: 39.9526px;
+    color: #FFFFFF;
+    outline: none;
+    pointer-events: all;
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .bottom-group .form-field::placeholder {
+    color: rgba(255, 255, 255, 0.36);
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .bottom-group .form-field:focus {
+    border-color: #3DA5FF;
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .bottom-group .Estimated-price {
+    position: absolute;
+    left: 40.56%;
+    right: 40.02%;
+    top: 82.1%;
+    bottom: 13.62%;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .bottom-group .ogcost {
+    position: absolute;
+    left: 49.17%;
+    right: 43.7%;
+    top: 88.79%;
+    bottom: 6.27%;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55.6882px;
+    line-height: 67px;
+    color: #FFFFFF;
+    text-decoration: line-through;
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .bottom-group .nowcost {
+    position: absolute;
+    left: 58.75%;
+    right: 29.72%;
+    top: 87.12%;
+    bottom: 4.62%;
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 85.3333px;
+    line-height: 102px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .bottom-group .Component-4 {
+    position: absolute;
+    left: 73.19%;
+    right: 6.18%;
+    top: 87.91%;
+    bottom: 4.65%;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .bottom-group .Component-4 .bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .bottom-group .Component-4 .Preorder-Now {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42.6667px;
+    line-height: 51px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #329AF5;
+    z-index: 1;
+    white-space: nowrap;
+    pointer-events: none;
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .bottom-group .Component-4:hover .Preorder-Now {
+    color: #FFFFFF;
+}
+
+.IDD-FIGMA-PAGE-6-preorder-page .bottom-group .Component-4:hover .bg rect {
+    fill: #3DA5FF;
 }
