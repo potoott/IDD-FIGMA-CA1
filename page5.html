@@ -23,7 +23,7 @@
 
         <!-- Header -->
         <nav class="main-nav">
-            <a href="3dindex.html" class="nav-logo">Home</a>
+            <a href="index.html" class="nav-logo">Home</a>
             <div class="nav-links">
                 <a href="https://www.apple.com/nl/airpods-pro/">About</a>
                 <a href="https://support.apple.com/nl-nl?cid=gn-ols-home-hp-tab">Contact</a>
@@ -167,61 +167,63 @@
                     </div>
                 </div>
             </div>
-            
+
 
             <div class="Frame-42">
-                <div class="Preorder-button">
-                    <span class="Preorder-Now">
-                        Preorder Now
-                    </span>
-                    <svg class="bg" width="820" height="209" viewBox="0 0 820 209" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <rect width="820" height="208.966" rx="104.483"  />
-                    </svg>
-                </div>
+                <a href="./preorder.html">
+                    <div class="Preorder-button">
+                        <span class="Preorder-Now">
+                            Preorder Now
+                        </span>
+                        <svg class="bg" width="820" height="209" viewBox="0 0 820 209" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect width="820" height="208.966" rx="104.483" />
+                        </svg>
+                    </div>
+                </a>
             </div>
             <div class="Frame-40">
                 <div class="footer"><img src="./idd photos/footer.png" alt="footer" class="image"></div>
             </div>
         </div>
     </div>
-    <script src ='./CycleCarousel.js'></script>
+    <script src='./CycleCarousel.js'></script>
 
- <div class="image-overlay" id="imageOverlay">
-    <div class="image-overlay-inner" id="imageOverlayInner"></div>
-</div>
+    <div class="image-overlay" id="imageOverlay">
+        <div class="image-overlay-inner" id="imageOverlayInner"></div>
+    </div>
 
-<script>
-    const overlay = document.getElementById('imageOverlay');
-    const overlayInner = document.getElementById('imageOverlayInner');
-    const images = document.querySelectorAll('.image-17, .image-18, .image-19');
+    <script>
+        const overlay = document.getElementById('imageOverlay');
+        const overlayInner = document.getElementById('imageOverlayInner');
+        const images = document.querySelectorAll('.image-17, .image-18, .image-19');
 
-    images.forEach(img => {
-        img.addEventListener('click', (e) => {
-            e.stopPropagation();
-            const isExpanded = img.classList.contains('expanded');
+        images.forEach(img => {
+            img.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const isExpanded = img.classList.contains('expanded');
 
-            // collapse
+                // collapse
+                images.forEach(i => i.classList.remove('expanded'));
+                overlayInner.innerHTML = '';
+                overlay.classList.remove('active');
+
+                if (!isExpanded) {
+                    // clone the image into the overlay center
+                    const clone = img.cloneNode(true);
+                    overlayInner.appendChild(clone);
+                    img.classList.add('expanded');
+                    overlay.classList.add('active');
+                }
+            });
+        });
+
+        overlay.addEventListener('click', () => {
             images.forEach(i => i.classList.remove('expanded'));
             overlayInner.innerHTML = '';
             overlay.classList.remove('active');
-
-            if (!isExpanded) {
-                // clone the image into the overlay center
-                const clone = img.cloneNode(true);
-                overlayInner.appendChild(clone);
-                img.classList.add('expanded');
-                overlay.classList.add('active');
-            }
         });
-    });
-
-    overlay.addEventListener('click', () => {
-        images.forEach(i => i.classList.remove('expanded'));
-        overlayInner.innerHTML = '';
-        overlay.classList.remove('active');
-    });
-</script>
+    </script>
 </body>
 
 </html>
