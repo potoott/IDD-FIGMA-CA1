@@ -120,9 +120,9 @@ html {
 .inspect-anim-2 .text1 {
     position: absolute;
     width: 484px;
-    height: 134px;
-    left: 1445.33px;
-    top: 580px;
+    height: 140px;
+    left: 1400px;
+    top: 532px;
     font-family: 'Inclusive Sans';
     font-style: normal;
     font-weight: 400;
@@ -135,8 +135,8 @@ html {
     position: absolute;
     width: 484px;
     height: 134px;
-    left: 1469.33px;
-    top: 418.67px;
+    left: 1400px;
+    top: 350.67px;
     font-family: 'Inclusive Sans';
     font-style: normal;
     font-weight: 400;
@@ -148,17 +148,24 @@ html {
 /* Vector flipped horizontally using scaleX(-1) — cleaner than matrix() */
 .inspect-anim-2 .Vector-25 {
     position: absolute;
-    width: 632px;
-    height: 149.33px;
-    left: 1262.67px;
-    top: 418.67px;
+    width: 533.33px;
+    height: 114.67px;
+    left: 1200px;
+    top: 385.33px;
     transform-origin: center center;
 }
 
 .inspect-anim-2 .airpods-svg-right {
     position: absolute;
-    width: 898.1px;
-    height: 798.05px;
-    left: 604px;
-    top: 166.67px;
+    width: 900px;
+    height: 800px;
+    left: 25%;
+    top: 188px;
+}
+
+.airpods-svg-right .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
