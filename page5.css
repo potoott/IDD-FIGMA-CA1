@@ -127,27 +127,26 @@ html {
 }
 
 
-.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22{
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     padding: 70.6667px 0px;
     isolation: isolate;
-
     position: relative;
     width: 1920px;
-    height: 9267px;
-
+    min-height: 9267px;  /* ← changed from height to min-height */
     flex: none;
     order: 1;
     align-self: stretch;
+    flex-grow: 1;        /* ← add this so it stretches to fill the page */
 }
 
 .IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-34{
    /* Frame 34 */
 
 width: 1920px;
-height: 1041px;
+height: 1000px;
 
 
 /* Inside auto layout */
@@ -169,78 +168,42 @@ z-index: 0;
     transform: translateX(-50%);
 }
 
-.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-34 .airpods-pro-customizable .airpods{
-    position: absolute;
-    width: 73.76%;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 0%;
-    bottom: 41.93%;
-}
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-34 .airpods-pro-customizable .A4-colour-3-sizes{
+    /* A4-colour-3-sizes */
 
-.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-34 .airpods-pro-customizable .Customise-your-Airpods{
-    position: absolute;
-    width: fit-content;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 54.08%;
-    bottom: 38.02%;
-    font-family: 'Inclusive Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 69.9598px;
-    line-height: 84px;
-    text-align: center;
-    background: linear-gradient(180deg, #FFFFFF 0%, #999999 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
+position: absolute;
+width: 581.51px;
+height: 788.59px;
+left: 102.95px;
+top: 0px;
 
-.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-34 .airpods-pro-customizable .white{
-    position: absolute;
-    width: 11.44%;
-    left: calc(50% - 22.72%);
-    top: 65.7%;
-    bottom: 25.83%;
-    background: radial-gradient(97.2% 97.2% at 73.43% 6.64%, #FFFFFF 0%, #B1B1B1 100%);
 }
-
-.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-34 .airpods-pro-customizable .black{
-    position: absolute;
-    width: 11.44%;
-    left: calc(50% - 7.59%);
-    top: 65.7%;
-    bottom: 25.83%;
-    background: radial-gradient(97.2% 97.2% at 73.43% 6.64%, #747474 0%, #000000 100%);
+.A4-colour-3-sizes .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
-
-.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-34 .airpods-pro-customizable .pink{
-    position: absolute;
-    width: 11.44%;
-    left: calc(50% + 7.54%);
-    top: 65.7%;
-    bottom: 25.83%;
-    background: radial-gradient(97.2% 97.2% at 73.43% 6.64%, #FFA5A5 0%, #FF6B6B 100%);
-}
-
-.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-34 .airpods-pro-customizable .yellow{
-    position: absolute;
-    width: 11.44%;
-    left: calc(50% + 22.67%);
-    top: 65.7%;
-    bottom: 25.83%;
-    background: radial-gradient(97.2% 97.2% at 73.43% 6.64%, #FFEDA5 0%, #FFC94C 100%);
-}
-
+    
 .IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-34 .airpods-pro-customizable .earphone-tip-selection{
-    position: absolute;
-    width: 95.83%;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 77.84%;
-    bottom: 0%;
+   /* earphone tip selection */
+
+position: absolute;
+left: 2.53%;
+right: 1.63%;
+top: 77.79%;
+bottom: 0.05%;
+
+
 }
+
+.earphone-tip-selection .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
 
 .IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-43{
     /* Frame 43 */
@@ -280,7 +243,7 @@ color: #004CFF;
 }
 .IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-35 {
     width: 1920px;
-    height: 1400Spx;
+    height: 1500px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -327,6 +290,12 @@ color: #004CFF;
     flex: none;
     order: 1;
     flex-grow: 0;
+}
+.hola-earbuds .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 .IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-35 .experience .text1 {
@@ -523,6 +492,12 @@ left: calc(50% - 672px/2 + 2.33px);
 top: 82px;
 
 }
+.airpods .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
 
 .IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-37 .text3{
     /* text3 */
@@ -577,6 +552,12 @@ color: #FFFFFF;
     left: calc(50% - 1360.59px/2 - 0.67px);
     top: 90.67px;
     background: url(image.png);
+}
+.image-16 .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 .IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-38 .Airpods-Pro-3 {
@@ -637,4 +618,388 @@ color: #FFFFFF;
     line-height: 51px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-36{
+    /* Frame 36 */
+
+width: 1920px;
+height: 1274.67px;
+    position: relative; /* ← add this */
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+z-index: 5;
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-36 .sustainability-efforts{
+    /* sustainability efforts */
+
+position: absolute;
+width: 521px;
+height: 64px;
+left: calc(50% - 521px/2 + 10.5px);
+top: 12.67px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 53.3333px;
+line-height: 64px;
+/* identical to box height */
+
+color: #5A6EFF;
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-36 .Airpods-Pro-3{
+    /* Airpods Pro 3 */
+
+position: absolute;
+width: 541px;
+height: 102px;
+left: 689px;
+top: 201.33px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 85.3333px;
+line-height: 102px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-36 .and-the-environment{
+    /* and the environment. */
+
+position: absolute;
+width: 646px;
+height: 77px;
+left: 637px;
+top: 304px;
+
+font-family: 'Inclusive Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+/* identical to box height */
+text-align: center;
+
+color: #00FF0D;
+
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-36 .image-17{
+    /* image 17 */
+
+position: absolute;
+width: 621.2px;
+height: 399.68px;
+left: 310px;
+top: 428.33px;
+
+background: url(image.png);
+
+}
+
+.image-17 .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-36 .image-18{
+/* image 18 */
+
+position: absolute;
+width: 621.2px;
+height: 399.68px;
+left: 989.8px;
+top: 428.33px;
+
+background: url(image.png);
+
+
+}
+
+.image-18 .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-36 .image-19{
+   /* image 19 */
+
+position: absolute;
+width: 621.2px;
+height: 399.68px;
+left: 654.59px;
+top: 874.89px;
+
+background: url(image.png);
+
+
+}
+
+.image-19 .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41{
+    /* Frame 41 */
+
+width: 1920px;
+height: 1017.33px;
+
+position: relative;
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+z-index: 6;
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .Our-Testimonials{
+    /* Our Testimonials */
+
+position: absolute;
+width: 398px;
+height: 58px;
+left: 738px;
+top: 391.67px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .testimonials{
+    /* testimonials */
+
+position: absolute;
+width: 1880.18px;
+height: 323.85px;
+left: 20px;
+top: 509px;
+
+
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .left-top{
+    /* left top */
+
+position: absolute;
+height: 137.6px;
+left: 0%;
+right: 73.63%;
+top: 44.58px;
+
+background: url('Screenshot 2026-02-02 235551.png');
+
+}
+
+.left-top .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .left-bot{
+/* left bottom */
+
+position: absolute;
+width: 488.4px;
+height: 75.39px;
+left: 3.28px;
+top: 194.7px;
+
+
+
+}
+
+.left-bot .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .mid-top{
+ /* middle top */
+
+position: absolute;
+height: 200.58px;
+left: 28.38%;
+right: 32.95%;
+top: 0px;
+
+background: url(image.png);
+
+
+}
+
+.mid-top .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .mid-bot{
+    /* middle bottom */
+
+position: absolute;
+width: 599.85px;
+height: 111.45px;
+left: 597.23px;
+top: 212.4px;
+
+
+
+}
+.mid-bot .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .right-top{
+ /* right top */
+
+position: absolute;
+height: 115.14px;
+left: 69.%;
+right: -0.06%;
+top: 57.69px;
+
+background: url(image.png);
+
+}
+.right-top .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-41 .right-bot{
+  /* right bottom */
+
+position: absolute;
+width: 399.9px;
+height: 74.08px;
+left: 1389.81px;
+top: 196.02px;
+
+
+
+}
+.right-bot .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-42 {
+    width: 1920px;
+    height: 563px;
+    position: relative;
+    flex: none;
+    order: 7;
+    flex-grow: 0;
+    z-index: 7;
+    align-self: stretch;  /* ← stops Frame-22's align-items: flex-end from squashing it */
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-42 .Preorder-button {
+    position: absolute;
+    width: 820px;
+    height: 208.97px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-42 .Preorder-button .bg {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #FFFFFF;
+    border-radius: 136.552px;
+    border: 2.06897px solid #329AF5;
+    z-index: 0;
+    
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-42 .Preorder-button .Preorder-Now {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Inclusive Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 95px;       /* ← bigger */
+    line-height: 1;
+    color: #329AF5;
+    z-index: 1;
+    text-align: center;     /* ← centres text horizontally */
+    white-space: nowrap;    /* ← keeps it on 1 line */
+}
+
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-40 {
+    width: 1920px;
+    min-height: 988px;
+    position: relative;
+    flex: none;
+    order: 8;
+    align-self: stretch;
+    flex-grow: 1;        /* ← pushes to bottom and fills remaining space */
+    z-index: 8;
+    margin-top: auto;    /* ← add this, forces it to the very bottom */
+}
+.IDD-FIGMA-PAGE-5-info-page-2 .Frame-22 .Frame-40 .footer {
+    position: absolute;
+    inset: 0;             /* ← fills entire Frame-40, no gaps */
+    width: 100%;
+    height: 100%;
+    background: url('Screenshot 2026-02-02 212503.png') center center / cover no-repeat;
+}
+.footer .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
