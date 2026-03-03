@@ -36,8 +36,10 @@ html {
     background: #FFFFFF;
 }
 
+/* Ensure the page-4 container creates its own stacking context */
 .IDD-FIGMA-PAGE-4-info-page .page-4 {
     position: relative;
+    isolation: isolate; /* ADD THIS */
     width: 1920px;
     min-height: 4140px;
     display: flex;
@@ -187,7 +189,7 @@ html {
 .IDD-FIGMA-PAGE-4-info-page .page-4 .header {
     position: sticky;
     top: 0;
-    z-index: 100;
+    z-index: 999;
     width: 1920px;
     height: 150px;
     background: #FFFFFF;
